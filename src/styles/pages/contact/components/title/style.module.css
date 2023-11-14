@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--subtitle-font);
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.container h2{
+    color: var(--blue);
+}
+.container h4{
+    color: var(--white);
+}
+.container h2 span{
+    color: var(--white);
+}
+.container h4 span{
+    color: var(--blue);
+}
+
+.container h2{
+    font-size: clamp(22.5px, 3.5vw, 45px);
+    /* clamp(50px, 8vw, 100px);*/
+    font-weight: 100;
+}
+
+.container h4{
+    font-size: clamp(15px, 2.4vw, 30px);
+    font-weight: 100;
+}

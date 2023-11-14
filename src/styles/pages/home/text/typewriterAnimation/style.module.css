@@ -1,0 +1,23 @@
+.container{
+    display: inline-block;
+}
+
+.text{
+    font-size: 5em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:typing 2.5s infinite,
+              cursorblink .4s step-end infinite alternate;
+}
+
+@keyframes cursorblink {
+    50%{ border-color: transparent}
+}
+
+@keyframes typing {
+    from{ width: 0}
+}

@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--subtitle-font);
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.container h2 span,
+.container h4{
+    color: var(--white);
+}
+
+.container h4 span,
+.container h2
+{
+    color: var(--blue);
+}
+
+.container h2{
+    font-size: clamp(37.5px, 6.8vw, 75px);
+    /* clamp(50px, 8vw, 100px);*/
+    font-weight: 400;
+}
+
+.container h4{
+    font-size: clamp(15px, 2.4vw, 30px);
+    font-weight: 100;
+}

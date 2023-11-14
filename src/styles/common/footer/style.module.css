@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    border-top: solid 1px var(--white);
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.slogan{
+    margin-top: 20px;
+}
+
+.slogan h4{
+    font-family: var(--title-font);
+}
+
+.ctreatedBy{
+    margin-bottom: 20px;
+}
+
+.ctreatedBy h5{
+    font-family: var(--title-font);
+}
+
+@media screen and (max-width: 768px) {
+    .slogan h4,
+    .ctreatedBy h5 {font-size: .8rem;}
+    
+  }

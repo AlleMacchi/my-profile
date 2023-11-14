@@ -1,0 +1,13 @@
+.container{
+    height: 100%;
+    min-height: calc(100vh - var(--height-header) - var(--height-footer));;
+    border: solid 1px red;
+}
+
+.title{
+    width: 100%;
+    border: solid 1px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+.firstText,
+.secondText{
+    text-shadow: 2px 2px 8px var(--black);
+}
+
+.firstText{
+    font-family: var(--title-font);
+    color: var(--blue);
+    font-size: clamp(50px, 8vw, 100px);
+}
+
+.secondText{
+    font-family: var(--title-font);
+    color: var(--white);
+}
+
+
+

@@ -1,0 +1,48 @@
+.container{
+    height: 100%;
+    width: 100%;
+    /* border: solid red 1px; */
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60%;
+    /* border: solid blue 1px; */
+    z-index: 99;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    
+    
+}
+.image img{
+    height: 100%;
+    width: auto;
+    float: right;
+   
+}
+.button{
+    position: relative;
+    height: 50px;
+    width: 150px;
+}
+
+@media screen and (max-width: 1024px){
+    .title,
+    .image
+    {width: 100%;}
+}

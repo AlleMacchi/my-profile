@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(10px, 1.6vw, 20px);
+    margin-bottom: 8%;   
+    margin-top: 1%;
+}
+.card{
+    width:clamp(200px, 32vw, 400px);
+    height: clamp(50px, 8vw, 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* clamp(50px, 8vw, 100px);*/
+}
+
+@media screen and (max-width: 1024px) {
+    .container {flex-flow: column wrap;}
+    .card{
+        width:clamp(250px, 40vw, 500px);
+        height: clamp(75px, 12vw, 150px);
+        /* clamp(50px, 8vw, 100px);*/
+    }
+  }
