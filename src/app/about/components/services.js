@@ -57,12 +57,12 @@ export default function Services(){
                     hasButton={false}
                 />
             </div>
-            {/* Project Manager */}
+            {/* Site Manager */}
             <div className={style.card}>
                 <ServiceCard 
                     urlImage='/icons/project.png'
-                    title='PROJECT MANAGER'    
-                    titleBackground='PM'               
+                    title='SITE MANAGER'    
+                    titleBackground='SM'               
                     content='Experienced Industrial Automation Project Manager, 
                     adept at optimizing processes, enhancing efficiency, and delivering 
                     successful projects.'

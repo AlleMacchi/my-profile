@@ -6,6 +6,8 @@ import Head from '../../components/head/head'
 import Header from '../../common/header'
 import Footer from '../../common/footer'
 
+import BackToTopButton from '../../components/button/BackToTopButton'
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -16,6 +18,7 @@ export default function RootLayout({ children }) {
       <Header />
         {children}
       <Footer />
+      <BackToTopButton />
       </body>
     </html>
   )

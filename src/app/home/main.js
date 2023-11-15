@@ -13,13 +13,13 @@ export default function Main(){
                 />
                 <TypewriterText />
                 
-                <div className={style.button}>
+{/*                 <div className={style.button}>
                     <MyButton
                         text='Read More'
                         url='/about'
                         backgroundColor= 'rgba(45,45,45,0.9)'
                     />
-                </div>                    
+                </div>  */}                   
                 
 
             </div>

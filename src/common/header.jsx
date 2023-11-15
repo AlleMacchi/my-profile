@@ -2,8 +2,6 @@
 import React, {useState} from "react";
 import style from '../styles/common/header/style.module.css'
 
-import AnimatedCursor from "react-animated-cursor"
-
 export default function Header(){
     
     const [menuOpen, setMenuOpen] = useState(false);
@@ -31,20 +29,6 @@ export default function Header(){
 
             {/* NAVBAR OPENED */}
             <nav className={menuOpen ? `${style.nav} ${style.open}` : `${style.nav}`}>
-                <AnimatedCursor 
-                    innerSize={8}
-                    outerSize={40}
-                    innerScale={1}
-                    outerScale={2}
-                    outerAlpha={0}
-                    hasBlendMode={true}
-                    innerStyle={{
-                    backgroundColor: 'var(--white)'
-                    }}
-                    outerStyle={{
-                    border: '2px solid var(--white)'
-                    }}
-                />
                 <div className={style.menuContainer}>
                     {/* NAVBAR HEADER */}
                     <div id={style.navigation_bar}>

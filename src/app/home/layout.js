@@ -1,6 +1,8 @@
 import Header from '../../common/header'
 import Head from '../../components/head/head'
 
+import BackToTopButton from '../../components/button/BackToTopButton'
+
 export default function Layout({ children }) {
   return (
     <html lang="en">
@@ -10,7 +12,9 @@ export default function Layout({ children }) {
     <body>
       <Header />
       <main>
-        {children}</main>
+        {children}
+      </main>
+      <BackToTopButton />  
     </body>
   </html>
 

@@ -1,29 +1,15 @@
 import React from "react";
-import AnimatedCursor from "react-animated-cursor"
 import Title from '../../components/title/title'
 import CvDownload from './components/cvDownload'
 import Services from './components/services'
 import MySkills from '../about/components/mySkills'
 import MyLanguages from '../about/components/myLanguages'
+
 import style from '../../styles/pages/about/layout/style.module.css'
 
 export default function AboutMe(){
     return(       
         <div className={`animate__animated animate__fadeIn animate__slower ${style.container}`} >
-            <AnimatedCursor 
-                innerSize={8}
-                outerSize={40}
-                innerScale={1}
-                outerScale={2}
-                outerAlpha={0}
-                hasBlendMode={true}
-                innerStyle={{
-                backgroundColor: 'var(--white)'
-                }}
-                outerStyle={{
-                border: '2px solid var(--white)'
-                }}
-            />
             <div className={style.title}>
                 <Title 
                     /* Title */
@@ -76,6 +62,7 @@ export default function AboutMe(){
             <div>
                 <MyLanguages />
             </div>
+            
         </div>
         )
 }

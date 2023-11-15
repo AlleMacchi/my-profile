@@ -1,26 +1,11 @@
 import React from "react";
-import AnimatedCursor from "react-animated-cursor"
 import Title from '../../components/title/title'
 import style from '../../styles/pages/blog/layout/style.module.css'
-import ServicesCard from "../../components/card/ServicesCard";
+import BlogMain from "./components/BlogMain";
 
-export default function AboutMe(){
+export default function MyBlog(){
     return(       
         <div className={`animate__animated animate__fadeIn animate__slower ${style.container}`} >
-            <AnimatedCursor 
-                innerSize={8}
-                outerSize={40}
-                innerScale={1}
-                outerScale={2}
-                outerAlpha={0}
-                hasBlendMode={true}
-                innerStyle={{
-                backgroundColor: 'var(--white)'
-                }}
-                outerStyle={{
-                border: '2px solid var(--white)'
-                }}
-            />
             <div className={style.title}>
                 <Title 
                     /* Title */
@@ -31,7 +16,7 @@ export default function AboutMe(){
                     secondPartSubtitle='me.'
                 />
             </div>
-            
+            <BlogMain />
         </div>
         )
 }
