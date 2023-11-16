@@ -179,18 +179,17 @@
     transition: all .4s ease;
     text-transform: uppercase;
     font-size: clamp(2.5rem, 1vw + 1rem,  4rem);
-
 }
 
 .menuItems a:hover{
     color: var(--blue);
+    
 }
-
 .menuItems a::before{
     content: "";
     position: absolute;
     left: 0;
-    top: 40%;
+    top: calc(55vh - var(--height-header));
     width: 100%;
     text-align: center;
     font-size: clamp(8rem, 1vw + 1rem,  10rem);
@@ -199,13 +198,12 @@
     letter-spacing: 150px;
     transition: 1s ease;
     font-family: var(--subtext-font);
-    z-index: 0;
 }
 .menuItems a:hover:before{
     content: attr(data-text);
     letter-spacing:normal;
     font-family: var(--subtext-font);
-
+    z-index: 0;
 }
 
 @media screen and (max-width: 1024px) {

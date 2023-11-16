@@ -1,14 +1,7 @@
-.container{
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    border: solid 1px green;
-}
-
 .card{
     position: relative;
-    max-width: 300px;
+    /* max-width: 300px; */
+    width: 300px;
     height: 215px;
     background: #fff;
     display: flex;
@@ -24,15 +17,16 @@
     position: relative;
     width: 260px;
     height: 260px;
-    top: -60px;
+    top: 0px;
     left: 50%;
     transform: translate(-50%);
     z-index: 1;
+
 }
 
 .card .imgBx img{
     max-width: 100%;
-    border-radius: 4px;
+
 }
 
 .card .content{
