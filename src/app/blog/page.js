@@ -16,7 +16,9 @@ export default function MyBlog(){
                     secondPartSubtitle='me.'
                 />
             </div>
-            <BlogMain />
+            <div className={style.main}> 
+                <BlogMain />
+            </div>
         </div>
         )
 }

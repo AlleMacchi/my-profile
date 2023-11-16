@@ -1,27 +1,52 @@
+#firstContainer{
+    margin-top: 4%;
+}
 .container{
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: clamp(10px, 1.6vw, 20px);
-    margin: clamp(10px, 1.6vw, 20px) 10% 0;
-    padding: 0 10%;
+    flex-direction: row;
+    text-align: left;
+    padding: 2% clamp(100px, 16vw, 200px);
+    border-bottom: solid 1px var(--white);
 }
-#containerLastElement{
-    margin-bottom: 8%;
+
+.itemLeft {
+    flex: 50%;
 }
-.title{
-    margin: 2% 0 0;
-    padding: 0;
+
+.itemLeft h4{
+    font-family: var(--subtitle-font);
+    font-size: clamp(15px, 2.4vw, 30px);
+    font-weight: 100;
+    color: var(--white);
+}
+
+/* .itemRight {
+    flex: 50%;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: clamp(25px, 4vw, 50px);
+} */
+.itemRight{
+    display: grid; 
+
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: clamp(25px, 4vw, 50px);
+    height: 100%;
+    width: 100%;
+
 }
 .card{
-    /* width:clamp(200px, 32vw, 400px); */
     height: clamp(50px, 8vw, 100px);
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* clamp(50px, 8vw, 100px);*/
     border: solid 1px var(--grey);
     border-radius: 15px
 }
@@ -33,15 +58,42 @@
     mix-blend-mode: color-burn;
 }
 
-@media screen and (max-width: 1024px) {
-    .container{
-        padding: 0 5%;}
-    .card{
-        /* width:clamp(250px, 40vw, 500px); */
-        height: clamp(75px, 12vw, 150px);
-        aspect-ratio: 1/1;
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-        
-        /* clamp(50px, 8vw, 100px);*/
+.item h4{
+    color: var(--white);
+}
+.item p{
+    color: var(--white);
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media screen and (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      margin-bottom: 0;
+      padding-bottom: 4%;
+      padding-top: 4%;
     }
-  }
+    .itemLeft {
+        margin-bottom: 8%;
+        text-align: center;
+    }
+    .itemLeft h4{
+        font-size: clamp(30px, 4.8vw, 60px);
+    }
+    .itemRight {
+        
+        /* justify-content: center;
+        align-items: center; */
+        grid-template-columns: 1fr 1fr;
+    }
+ }

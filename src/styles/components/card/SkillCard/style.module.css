@@ -33,7 +33,7 @@
 .item p{
     font-family: var(--subtitle-font);
     font-weight: 100;
-    font-size: clamp(8px, 1.28vw, 16px);
+    font-size: clamp(10px, 1.6vw, 20px);
     color: var(--white);
 }
 
