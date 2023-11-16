@@ -183,7 +183,7 @@
 }
 
 .menuItems a:hover{
-    color: var(--white);
+    color: var(--blue);
 }
 
 .menuItems a::before{
@@ -206,4 +206,10 @@
     letter-spacing:normal;
     font-family: var(--subtext-font);
 
+}
+
+@media screen and (max-width: 1024px) {
+    .menuItems a:hover:before{
+        content: '';
+    }
 }

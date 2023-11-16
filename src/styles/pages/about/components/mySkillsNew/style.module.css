@@ -1,0 +1,87 @@
+#firstContainer{
+    margin-top: 4%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 2% clamp(100px, 16vw, 200px);
+    border-bottom: solid 1px var(--white);
+}
+
+.itemLeft {
+    flex: 50%;
+}
+
+.itemLeft h4{
+    font-family: var(--subtitle-font);
+    font-size: clamp(15px, 2.4vw, 30px);
+    font-weight: 100;
+    color: var(--white);
+}
+
+.itemRight {
+    flex: 50%;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: clamp(25px, 4vw, 50px);
+}
+
+.card{
+    height: clamp(50px, 8vw, 100px);
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--grey);
+    border-radius: 15px
+}
+
+.card img{
+    width: 90%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item h4{
+    color: var(--white);
+}
+.item p{
+    color: var(--white);
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media screen and (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      margin-bottom: 0;
+      padding-bottom: 4%;
+      padding-top: 4%;
+    }
+    .itemLeft {
+        margin-bottom: 8%;
+        text-align: center;
+    }
+    .itemLeft h4{
+        font-size: clamp(30px, 4.8vw, 60px);
+    }
+    .itemRight {
+        justify-content: center;
+        align-items: center;
+    }
+ }

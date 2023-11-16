@@ -130,4 +130,24 @@
         font-size: clamp(11.25px, 1.8vw, 22.5px);
         /* clamp(50px, 8vw7., 100px);*/
     }
+
+    .card .imgBx{
+        left: calc(clamp(37.5px, 6vw, 75px)*-1);
+        top: calc(50% - clamp(37.5px, 6vw, 75px));
+        width: clamp(80px, 12.8vw, 160px);
+        height: clamp(80px, 12.8vw, 160px);   
+        background: var(--blue);
+        transition: 0.5s ease-in-out;
+        /* clamp(50px, 8vw, 100px);*/
+    }
+
+    .card .imgBx:before{
+        content:'';
+    }
+
+    .card .imgBx img {
+        max-width: clamp(50px, 8vw, 100px);
+        max-height: clamp(50px, 8vw, 100px);
+        /* clamp(50px, 8vw, 100px);*/
+    }
   } 

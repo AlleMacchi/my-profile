@@ -2,7 +2,7 @@ import React from "react";
 import Title from '../../components/title/title'
 import CvDownload from './components/cvDownload'
 import Services from './components/services'
-import MySkills from '../about/components/mySkills'
+import MySkills from './components/mySlillsNew'
 import MyLanguages from '../about/components/myLanguages'
 
 import style from '../../styles/pages/about/layout/style.module.css'
@@ -46,7 +46,7 @@ export default function AboutMe(){
                     secondPartSubtitle='my skills.'
                 />     
             </div>            
-            <div>
+            <div className={style.services}>
                 <MySkills />
             </div>
             <div className={style.title}>

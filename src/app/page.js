@@ -12,7 +12,7 @@ export default function Home(){
     <Layout>
       <div className={`animate__animated animate__fadeIn animate__slower ${style.container}`}>
         <aside className={`col col-1 col-s-2 ${style.aside}`} id={style.asideLeft}> <SocialMedia /> </aside>
-        <section className={`col col-12 col-s-8 ${style.main}`} id={style.mainId} > <Main /> </section>
+        <section className={`col col-12 col-s-12 ${style.main}`} id={style.mainId} > <Main /> </section>
         <aside className={`col col-1 col-s-2 ${style.aside}`} id={style.asideRight}> <ContactMe /> </aside> 
       </div>
     </Layout>
