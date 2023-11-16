@@ -39,7 +39,6 @@
     /* gap: clamp(25px, 4vw, 50px); */
     /* height: 100%; */
     width: 100%;
-    border: solid 1px blue;
 
 }
 .card{
@@ -92,7 +91,7 @@
         font-size: clamp(30px, 4.8vw, 60px);
     }
     .itemRight {
-        grid-template-columns: repeat( 2, 1fr) ;
+        grid-template-columns: repeat( 3, 1fr) ;
         width: auto;
     }
  }

@@ -17,7 +17,7 @@
     .container {flex-flow: column wrap;}
     .card{
         height: clamp(187.5px, 30vw, 375px);
-        width:clamp(300px, 48vw, 600px);
+        width:clamp(250px, 40vw, 500px);
         /* clamp(50px, 8vw, 100px);*/
     }
   }

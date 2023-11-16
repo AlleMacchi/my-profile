@@ -37,6 +37,6 @@
 @media screen and (max-width: 1024px) {
 
     .services{
-        padding: clamp(5px, 0.8vw, 10px);
+         padding: clamp(5px, 0.8vw, 10px);
     }
   }
