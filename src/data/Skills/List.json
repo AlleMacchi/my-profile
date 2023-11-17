@@ -1,0 +1,157 @@
+{
+        "IndustrialAutomation": [
+            {
+                "id":1,
+                "urlImage":"/icons/TIA-Portal-Logo.png",
+                "title":"PLC Siemens",
+                "subtitle":"AWL/LADDER/SCL"
+            },
+            {
+                "id":2, 
+                "urlImage":"/icons/Rockwell.png",
+                "title":"PLC AB",
+                "subtitle":"LADDER/STL"
+            },
+            {
+                "id":3, 
+                "urlImage":"/icons/B&R.png",
+                "title":"PLC B&R",
+                "subtitle":"LADDER/STL"
+            },
+            {
+                "id":4, 
+                "urlImage":"/icons/KUKA.png",
+                "title":"Robot KUKA",
+                "subtitle":"KRC4"
+            },
+            {
+                "id":5,
+                "urlImage":"/icons/Sew-Eurodrive.png",
+                "title":"SEW Drivers",
+                "subtitle":"Start-up & Setting"
+            },
+            {
+                "id":6,
+                "urlImage":"/icons/siemens.png",
+                "title":"Siemens Drivers",
+                "subtitle":"Start-up & Setting"
+            },
+            {        
+                "id":7, 
+                "urlImage":"/icons/wincc-oa.png",
+                "title":"Siemens WinCC",
+                "subtitle":"Creation SCADA/HMI"
+            },
+            {
+                "id":8, 
+                "urlImage":"/icons/FactoryTalkComplete.png",
+                "title":"AB FactoryTalk",
+                "subtitle":"Creation SCADA/HMI"
+            }, 
+            {
+                "id":9,
+              "urlImage":"/icons/wonderware.png",
+              "title":"Wonderware",
+             "subtitle":"Creation SCADA/HMI"
+            } 
+        ],
+        "WebDevelopment":[
+            {
+                "id":1,
+                "urlImage":"/icons/html.png",
+                "title":"HTML",
+                "subtitle":"Tapping Text"
+            },
+            {
+                "id":2,
+                "urlImage":"/icons/CSS.png",
+                "title":"CSS",
+                "subtitle":"Style Sheet Language"
+            }, 
+            {
+                "id":3,
+                "urlImage":"/icons/JS.png",
+                "title":"JavaScript",
+                "subtitle":"Programming Language"
+            },
+            {
+                "id":4,
+                "urlImage":"/icons/Bootstrap.png",
+                "title":"Bootstrap",
+                "subtitle":"CSS framework"
+            },
+            {
+                "id":5,
+                "urlImage":"/icons/ReactJs.png",
+                "title":"ReactJs",
+                "subtitle":"JavaScript library"
+            },
+            {
+                "id":6,
+                "urlImage":"/icons/nextjs.png",
+                "title":"NextJs",
+                "subtitle":"Framework"
+            },
+            {
+                "id":7,
+                "urlImage":"/icons/nodejs.png",
+                "title":"NodeJs",
+                "subtitle":"Server JavaScript"
+            },
+            {
+                "id":8,
+                "urlImage":"/icons/npm.png",
+                "title":"NPM",
+                "subtitle":"Package Manager"
+            },
+            {
+                "id":9,
+                "urlImage":"/icons/github.png",
+                "title":"GitHub",
+                "subtitle":"Cloud Version Control"
+            }
+        ],
+        "ProgrammingLanguages":[
+            {
+                "id":1,
+                "urlImage":"/icons/python.png",
+                "title":"Python",
+                "subtitle":"Programming Language"
+            },
+            {
+                "id":2,
+                "urlImage":"/icons/JS.png",
+                "title":"JavaScript",
+                "subtitle":"Programming Language"
+            },
+            {
+                "id":3,
+                "urlImage":"/icons/CSharp.png",
+                "title":"C#",
+                "subtitle":"Programming Language"
+            }
+        ],
+        "DataBase":[
+            {
+                "id":1,
+                "urlImage":"/icons/mysql.png",
+                "title":"MySQL",
+                "subtitle":"SQL Database Sytem"
+            },
+            {
+                "id":2,
+                "urlImage":"/icons/MongoDB.png",
+                "title":"MongoDB",
+                "subtitle":"NoSQL Database Sytem"
+            }
+        ],
+        "_3dDesign":[
+            {
+                "id":1,
+                "urlImage":"/icons/Blender.png",
+                "title":"Blender",
+                "subtitle":"3D creation suite"
+            }
+        ]
+
+}

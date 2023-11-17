@@ -21,11 +21,8 @@ export default function CvDownload(){
                     />
                 </div>  
             </div>
-            <div className={`col col-12 col-s-12 ${style.image}`} id={style.fieldImage}>
-                <MyVideo 
-                    url="./videos/Team.mov"
-                    codec="video/mov"
-                />
+            <div className={`col col-12 col-s-12 ${style.imageBx}`} id={style.fieldImage}>
+                <div className={style.image} />
             </div>
         </div>
     )

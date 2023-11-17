@@ -1,18 +1,16 @@
 import React from "react";
 import style from '../../styles/components/card/MyBlogCard/style.module.css'
 
-export default function MyBlogCard(){
+export default function MyBlogCard(props){
     return(
     <div className={style.container}>               
         <div class={style.imgBx}>
-            <img src="/images/Blog.jpg" alt="blog-one" />
-            <div class={style.dateBx}>8 May,20</div>
+            <img src={props.urlImage} alt="blog-card" />
+            <div class={style.dateBx}>{props.date}</div>
         </div>
         <div class={style.textBx}>
-            <h3>Harleys In Hawaai</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias dolore recusandae illum, corrupti quo 
-                veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum provident? Magnam fugiat voluptas
-                libero.</p>
+            <h3>{props.title}</h3>
+            <p>{props.text}</p>
         </div>        
     </div>
     )

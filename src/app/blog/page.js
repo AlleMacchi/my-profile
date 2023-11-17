@@ -1,7 +1,8 @@
 import React from "react";
-import Title from '../../components/title/title'
-import style from '../../styles/pages/blog/layout/style.module.css'
+import Title from '../../components/title/title';
+import style from '../../styles/pages/blog/layout/style.module.css';
 import BlogMain from "./components/BlogMain";
+import Subscribe from './components/Subscribe';
 
 export default function MyBlog(){
     return(       
@@ -12,12 +13,15 @@ export default function MyBlog(){
                     firstPartTitle='My '
                     secondPartTitle='Blog'
                     /* Subtitle */
-                    firstPartSubtitle='Get to know '
-                    secondPartSubtitle='me.'
+                    firstPartSubtitle='Stay tuned for all '
+                    secondPartSubtitle='my news.'
                 />
             </div>
             <div className={style.main}> 
                 <BlogMain />
+            </div>
+            <div className={style.title}>
+                <Subscribe />
             </div>
         </div>
         )
