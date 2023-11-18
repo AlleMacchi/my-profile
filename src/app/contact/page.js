@@ -1,7 +1,7 @@
 import React from "react";
 import Title from '../../components/title/title'
 import style from '../../styles/pages/contact/layout/style.module.css'
-import ContactMain from "./components/Main";
+import ContactMain from "./components/Form";
 
 export default function AboutMe(){
     return(       
