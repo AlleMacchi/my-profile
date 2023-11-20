@@ -61,3 +61,24 @@
     background-color: #050505;
     transition: all .5s ease;
 }
+.button{
+    /* display: inline-block; */
+    display: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    font-size: clamp(7.5px, 1.2vw, 15px);
+    font-family: var(--button-font);
+    /* clamp(50px, 8vw7., 100px);*/
+}
+.button.active{
+    display: inline-block;
+}
+@media screen and (max-width: 1024px) {
+    .content a{
+        font-size: clamp(11.25px, 1.8vw, 22.5px);
+        /* clamp(50px, 8vw7., 100px);*/
+    }
+}

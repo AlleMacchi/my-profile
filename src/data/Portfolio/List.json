@@ -3,6 +3,7 @@
         "id": 1,   
         "urlImage":"/images/Blog.jpg",   
         "date":"1 May,20",
+        "company":"Albe",
         "title":"Card One",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
         "textButton":"Read Me",
@@ -12,6 +13,7 @@
         "id": 2,   
         "urlImage":"/images/Blog.jpg",   
         "date":"2 May,20",
+        "company":"Albe",
         "title":"Card Two",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
         "textButton":"Read Me",
@@ -21,6 +23,7 @@
         "id": 3,   
         "urlImage":"/images/Blog.jpg",   
         "date":"3 May,20",
+        "company":"Albe",
         "title":"Card Three",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
         "textButton":"Read Me",
@@ -30,6 +33,7 @@
         "id": 4,   
         "urlImage":"/images/Blog.jpg",   
         "date":"4 May,20",
+        "company":"Albe",
         "title":"Card Four",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
         "textButton":"Read Me",
@@ -39,35 +43,9 @@
         "id": 5,   
         "urlImage":"/images/Blog.jpg",   
         "date":"5 May,20",
+        "company":"Albe",
         "title":"Card Five",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
-        "textButton":"Read Me",
-        "hasButton":false   
-    },
-    {
-        "id": 6,   
-        "urlImage":"/images/Blog.jpg",   
-        "date":"6 May,20",
-        "title":"Card Six",
-        "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
-        "textButton":"Read Me",
-        "hasButton":false   
-    },
-    {
-        "id": 7,   
-        "urlImage":"/images/Blog.jpg",   
-        "date":"7 May,20",
-        "title":"Card Seven",
-        "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
-        "textButton":"Read Me",
-        "hasButton":false   
-    },
-    {
-        "id": 8,   
-        "urlImage":"/images/Blog.jpg",   
-        "date":"8 May,20",
-        "title":"Card Eight",
-        "text":"Céra una volta una gatta che andava sui tetti", 
         "textButton":"Read Me",
         "hasButton":false   
     }

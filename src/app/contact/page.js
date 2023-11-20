@@ -12,8 +12,8 @@ export default function AboutMe(){
                     firstPartTitle='My '
                     secondPartTitle='Contact'
                     /* Subtitle */
-                    firstPartSubtitle='Get to know '
-                    secondPartSubtitle='me.'
+                    firstPartSubtitle='Get to know me, '
+                    secondPartSubtitle='reach out.'
                 />
             </div>
             <div className={style.main}>
@@ -22,54 +22,3 @@ export default function AboutMe(){
         </div>
         )
 }
-
-
-
-/*     const myComponentStyle = {
-        height:50,
-        width:150,
-        position: "absolute",
-        top:150, 
-        left:1250,
-     }
-
-     const myComponentStyle2 = {
-        height:450,
-        width:450,
-        margin:'0 0 0 90px',
-     }
-     const styleContainer = {
-        display: 'flex',
-     } */
-
-
-{/*         <div style={myComponentStyle}>
-            <Button 
-                    url='/'
-                    text='Download CV'
-                    fontSize='.8'
-                    backgroundColor='var(--background_button)'
-                    color='var(--blue)'
-                    fontFamily='sans-serif'
-                    
-                />
-        </div> */}
- {/*        <div style={styleContainer}>
-            <div style={myComponentStyle2}>
-                <Card />
-            </div>
-            <div style={myComponentStyle2}>
-                <Card />
-            </div>
-            <div style={myComponentStyle}>
-            <Button 
-                    url='/'
-                    text='Download CV'
-                    fontSize='.8'
-                    backgroundColor='var(--background_button)'
-                    color='var(--blue)'
-                    fontFamily='sans-serif'
-                    
-                />
-            </div>
-        </div> */}

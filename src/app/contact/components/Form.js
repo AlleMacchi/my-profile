@@ -1,4 +1,7 @@
 import style from '../../../styles/pages/contact/components/form/style.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faWhatsapp, faTelegram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope,faPhone,faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 export default function(){
     return(
@@ -9,27 +12,27 @@ export default function(){
                         <h2>Contact Info</h2>
                         <ul className={style.info}>
                             <li>
-                                <span><img src='./icons/Address.png' height="56px" alt="" /></span>
+                                <span><FontAwesomeIcon className={style.icon} icon={faLocationDot} /></span>
                                 <span>58 High St <br />
                                 Coburg, Melbourne <br />
                                 Victoria, 3058</span>
                             </li>
                             <li>
-                                <span><img src="./icons/Email.png" height="56px" alt="" /></span>
+                                <span><FontAwesomeIcon className={style.icon} icon={faEnvelope} /></span>
                                 <span>alessandro.macchitella@gmail.com</span>
                             </li>
                             <li>
-                                <span><img src="./icons/Phone.png" height="56px" alt="" /></span>
+                                <span><FontAwesomeIcon className={style.icon} icon={faPhone} /></span>
                                 <span>(+61) 452-177-060</span>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <ul className={style.sci}>
-                            <li><a href='#'><img src="./icons/Facebook.png" height="36px" alt="" /></a></li>
-                            <li><a href='#'><img src="./icons/Twitter.png" height="36px" alt="" /></a></li>
-                            <li><a href='#'><img src="./icons/Instagram.png" height="36px" alt="" /></a></li>
-                            <li><a href='#'><img src="./icons/Linkedin.png" height="36px" alt="" /></a></li>
+                            <li><a href='#'><FontAwesomeIcon className={style.icon} icon={faInstagram} /></a></li>
+                            <li><a href='#'><FontAwesomeIcon className={style.icon} icon={faWhatsapp} /></a></li>
+                            <li><a href='#'><FontAwesomeIcon className={style.icon} icon={faTelegram} /></a></li>
+                            <li><a href='#'><FontAwesomeIcon className={style.icon} icon={faLinkedin} /></a></li>
                         </ul>
                     </div>
                     

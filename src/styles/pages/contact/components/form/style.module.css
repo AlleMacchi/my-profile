@@ -24,7 +24,7 @@
   }
   
   .contactInfo {
-    width: 30%;
+    width: 40%;
     height: 100%;
     background: var(--blue);
     border-radius: 8px;
@@ -40,6 +40,7 @@
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    font-family: var(--title-font);
   }
   
   .info {
@@ -63,21 +64,21 @@
     min-width: 30px;
   }
   
-  .info li span:nth-child(1) img {
+  .info li span:nth-child(1) .icon {
     height: 100%;
-    max-width: 100%;
-    filter: invert(1);
+    max-width: 50%;
+    color: var(--white);
     opacity: 0.5;
   }
   
   .info li span:nth-child(2) {
     color: #fff;
-    margin-left: 10px;
     font-weight: 300;
     opacity: 0.5;
+    font-family: var(--subtitle-font);
   }
   
-  .info li:hover span:nth-child(1) img,
+  .info li:hover span:nth-child(1) .icon,
   .info li:hover span:nth-child(2) {
     opacity: 1;
   }
@@ -86,6 +87,7 @@
     position: relative;
     display: flex;
     padding: 0;
+    justify-content: space-between;
   }
   
   .sci li {
@@ -97,12 +99,13 @@
     text-decoration: none;
   }
   
-  .sci li a img {
-    filter: invert(1);
+  .sci li a .icon {
+    color: var(--white);
     opacity: 0.5;
+    height: 36px;
   }
   
-  .sci li:hover a img {
+  .sci li:hover a .icon {
     opacity: 1;
   }
   
@@ -120,9 +123,10 @@
   }
   
   .contactForm h2 {
-    color: #0f3959;
+    color: var(--blue);
     font-size: 24px;
     font-weight: 500;
+    font-family: var(--title-font);
   }
   
   .formBox {
@@ -153,7 +157,7 @@
     resize: none;
     font-size: 18px;
     font-weight: 300;
-    color: #333;
+    color: var(--dark-grey);
     border: none;
     border-bottom: 1px solid #777;
     outline: none;
@@ -170,9 +174,10 @@
     resize: none;
     font-size: 18px;
     font-weight: 300;
-    color: #333;
+    color: var(--dark-grey);
     transition: 0.5s;
     pointer-events: none;
+    font-family: var(--subtitle-font);
   }
   
   .inputBox input:focus~span,
@@ -189,8 +194,8 @@
   .inputBox input[type="submit"] {
     position: relative;
     cursor: pointer;
-    background: #0f3959;
-    color: #fff;
+    background: var(--blue);
+    color: var(--white);
     border: none;
     max-width: 150px;
     padding: 12px;
