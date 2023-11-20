@@ -6,7 +6,7 @@
         "company":"Albe",
         "title":"Card One",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        "textButton":"Read Me",
+        "textButton":"View Project",
         "hasButton":false 
     },
     {
@@ -16,7 +16,7 @@
         "company":"Albe",
         "title":"Card Two",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.", 
-        "textButton":"Read Me",
+        "textButton":"View Project",
         "hasButton":false   
     },
     {
@@ -26,7 +26,7 @@
         "company":"Albe",
         "title":"Card Three",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
-        "textButton":"Read Me",
+        "textButton":"View Project",
         "hasButton":false   
     },
     {
@@ -36,7 +36,7 @@
         "company":"Albe",
         "title":"Card Four",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
-        "textButton":"Read Me",
+        "textButton":"View Project",
         "hasButton":false   
     },
     {
@@ -46,7 +46,7 @@
         "company":"Albe",
         "title":"Card Five",
         "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit.Possimus alias dolore recusandae illum, corrupti quo veniam saepe aliquid!", 
-        "textButton":"Read Me",
+        "textButton":"View Project",
         "hasButton":false   
     }
 ]
