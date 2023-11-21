@@ -1,0 +1,102 @@
+.container{
+    width:clamp(300px, 32vw, 500px);
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--dark-grey);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+.imgBx{
+   
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.imgBx img{
+    width: 100%;
+    aspect-ratio: 1.50;
+    border-radius: 8px;
+}
+.textBx{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBx h4{
+    font-family: var(--subtitle-font);
+    font-weight: 100;
+    font-size: clamp(8px, 1.28vw, 16px);
+    /* clamp(50px, 8vw, 100px);*/
+    color: var(--white);
+    margin: clamp(5px, .8vw, 10px);
+}
+.titleBx{
+    border-bottom: solid 1px var(--white);
+    margin-bottom: clamp(5px, .8vw, 10px);
+}
+.titleBx h2{
+    padding: clamp(5px, .8vw, 10px);
+    font-family: var(--title-font);
+    font-size: clamp(16px, 2.56vw, 32px);
+    color: var(--white);
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.paragraph{
+    padding-top: 0;
+    padding-left: clamp(15px, 2.4vw, 30px);
+    padding-right: clamp(15px, 2.4vw, 30px);
+    padding-bottom: clamp(15px, 2.4vw, 30px);
+    font-family: var(--subtitle-font);
+    font-size: clamp(8px, 1.28vw, 16px);
+    color: var(--grey);
+}
+.button {
+    display: none;
+    color: var(--white);
+    font-family: var(--subtitle-font);
+    font-size: clamp(6.5px, 1.04vw, 13px);
+    line-height: clamp(12px, 1.92vw, 24px);
+    letter-spacing: 1px;
+    padding-top:clamp(3.5px, 0.56vw, 7px);
+    padding-bottom:clamp(3.5px, 0.56vw, 7px);
+    padding-left: clamp(14px, 2.24vw, 28px);
+    padding-right: clamp(14px, 2.24vw, 28px);
+    margin-bottom: clamp(15px, 2.4vw, 30px);
+    border-color: var(--white);
+    border-radius: 0px;
+    border: 1px solid;
+    background: none;
+    text-decoration: none;
+}
+
+.button:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.button.active{
+    display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {
+    .paragraph,
+    .textBx h4{
+        font-size: clamp(10px, 1.6vw, 20px);
+    }
+
+    .button {
+        font-size: clamp(10px, 1.6vw, 20px);
+        padding-top: clamp(10px, 1.6vw, 20px);
+        padding-bottom: clamp(10px, 1.6vw, 20px);
+    }
+
+  }
+  

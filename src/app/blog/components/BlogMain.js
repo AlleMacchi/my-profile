@@ -1,4 +1,4 @@
-import BlogCard from "../../../components/card/MyBlogCard";
+import BlogCard from "../../../components/card/MaayaBlogCard";
 import style from '../../../styles/pages/blog/components/BlogMain/style.module.css'
 
 import Data from '../../../data/Blogs/List.json'
@@ -17,6 +17,7 @@ export default function BlogMain(){
                     text={DataCards.text}
                     textButton={DataCards.textButton}
                     hasButton={DataCards.hasButton}
+                    urlButton={DataCards.urlButton}
                 />
             ))}
         </div>        

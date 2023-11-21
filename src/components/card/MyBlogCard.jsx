@@ -13,7 +13,7 @@ export default function MyBlogCard(props){
         <div class={style.textBx}>
             <h3>{props.title}</h3>
             <p>{props.text}</p>
-            <a className={`${style.button} ${activeClass}`} href="#">{props.textButton}</a>
+            <a className={`${style.button} ${activeClass}`} href={props.urlButton}>{props.textButton}</a>
         </div>        
     </div>
     )
