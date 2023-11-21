@@ -1,0 +1,13 @@
+.container,
+#warning_message{
+    color: var(--white);
+}
+
+#warning-message { display: none; }
+@media only screen and (orientation:portrait){
+    #wrapper { display:none; }
+    #warning_message { display:block; }
+}
+@media only screen and (orientation:landscape){
+    #warning_message { display:none; }
+}

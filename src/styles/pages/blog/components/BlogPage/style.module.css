@@ -1,17 +1,13 @@
 .container{
-    width:clamp(300px, 32vw, 500px);
-    height: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: var(--dark-grey);
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .imgBx{
-   
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 8px;
 }
@@ -21,6 +17,7 @@
     aspect-ratio: 1.50;
     border-radius: 8px;
 }
+
 .textBx{
     display: flex;
     flex-direction: column;
@@ -32,7 +29,7 @@
 .textBx h4{
     font-family: var(--subtitle-font);
     font-weight: 100;
-    font-size: clamp(8px, 1.28vw, 16px);
+    font-size: clamp(16px, 1.92vw, 24px);
     /* clamp(50px, 8vw, 100px);*/
     color: var(--white);
     margin: clamp(5px, .8vw, 10px);
@@ -40,28 +37,33 @@
 .titleBx{
     border-bottom: solid 1px var(--white);
     margin-bottom: clamp(10px, 1.68vw, 20px);
-    width: 80%;
+    width: 60%;
 }
 
 .titleBx h2{
     padding: clamp(10px, 1.6vw, 20px);
     font-family: var(--title-font);
-    font-size: clamp(16px, 2.56vw, 24px);
+    font-size: clamp(24px, 3.84vw, 48px);
+    /* clamp(50px, 8vw, 100px);*/
     color: var(--white);
     font-weight: 400;
     letter-spacing: 2px;
 }
 .paragraph{
     padding-top: 0;
-    padding-left: clamp(15px, 2.4vw, 30px);
-    padding-right: clamp(15px, 2.4vw, 30px);
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom: clamp(15px, 2.4vw, 30px);
     font-family: var(--subtitle-font);
-    font-size: clamp(8px, 1.28vw, 16px);
+    font-size: clamp(16px, 1.92vw, 24px);
+    /* clamp(50px, 8vw, 100px);*/
     color: var(--grey);
+    text-align: justify;
+    line-height: clamp(20px, 3vw, 38px);
 }
+
 .button {
-    display: none;
+    display: inline-block;
     color: var(--white);
     font-family: var(--subtitle-font);
     font-size: clamp(6.5px, 1.04vw, 13px);
@@ -84,14 +86,22 @@
     color: var(--blue);
 }
 
-.button.active{
-    display: inline-block;
-}
-
 @media screen and (max-width: 1024px) {
     .paragraph,
     .textBx h4{
         font-size: clamp(10px, 1.6vw, 20px);
+    }
+
+    .paragraph{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .imgBx{
+        width: 90%;
+    }
+
+    .titleBx{
+        width: 90%;
     }
 
     .button {
@@ -101,4 +111,3 @@
     }
 
   }
-  
