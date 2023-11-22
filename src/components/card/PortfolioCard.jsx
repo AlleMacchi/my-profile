@@ -16,7 +16,7 @@ export default function PortfolioCard(props){
             </div>
             <h3 className={style.title}>{props.title}</h3>
             <p className={style.post_text}>{props.text}</p>
-            <a className={`${style.button} ${activeClass}`} href="#">{props.textButton}</a>
+            <a className={`${style.button} ${activeClass}`} href={props.urlButton}>{props.textButton}</a>
         </div>        
     </div>
     )

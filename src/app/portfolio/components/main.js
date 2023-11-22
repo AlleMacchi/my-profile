@@ -19,7 +19,7 @@ export default function BlogMain(){
                     text={DataCards.text}
                     textButton={DataCards.textButton}
                     hasButton={DataCards.hasButton}
-
+                    urlButton={DataCards.urlButton}
                 />
             ))}
         </div>        

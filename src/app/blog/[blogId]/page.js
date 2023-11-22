@@ -1,6 +1,5 @@
 import style from '../../../styles/pages/blog/components/BlogPage/style.module.css'
 import Data from '../../../data/Blogs/List.json'
-import MyButton from '../../../components/button/SnakeBorderButton';
 
 const DataCards = Data;
 
@@ -22,14 +21,3 @@ export default function BlogPage({params}){
     )
     
 }
-
-        {/* <BlogCard
-                    key={DataCards[params.blogId].id} 
-                    urlImage={DataCards[params.blogId].urlImage}
-                    date={DataCards[params.blogId].date}
-                    title={DataCards[params.blogId].title}
-                    text={DataCards[params.blogId].text}
-                    textButton={DataCards[params.blogId].textButton}
-                    hasButton={DataCards[params.blogId].hasButton}
-                    urlButton={DataCards[params.blogId].urlButton}
-                /> */}
