@@ -1,25 +1,90 @@
-.wrapper{
-    min-height: calc(100vh - var(--height-header) - var(--height-footer));
-    margin: 0 5%;
-    text-align: center;
-    color: var(--white);
+.nav {
+   width: 100%;
+   height: var(--height-header);
+   background-color:  var(--black);
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    color: var(--grey);
-    text-align: justify;
- }
+.foot{
+   width: 100%;
+   background-color: var(--black);
+   position: absolute;
+   bottom: 0;
+}
 
- .Bx{
-    flex: 50%;
-    margin: 10px;
-    padding: 50px;
- }
- .Bx img{
-    width: 100%;
- }
+.container {
+   height: 100vh;
+   scroll-behavior: smooth;
+   overflow-y: scroll;
+   scroll-snap-type: y mandatory;
+   overflow-x: hidden;
+
+}
+.section {
+   width: 100%;
+   height: 100vh;
+   background-size:  cover;
+   scroll-snap-align: start;
+}
+
+#sec1{
+   background: var(--black);
+}
+#sec2{
+   background: var(--black);
+}
+#sec3{
+   background: red;
+}
+#sec4{
+   background: blue;
+}
+#sec5{
+   background: yellow;
+   position: relative;
+}
+
+.title{
+   width: 100%;
+}
+.titleImgBx{
+   width:100%;
+   height: 100vh;
+   padding:1%;
+}
+
+.titleImg{
+   width:100%;
+   height: 70vh;
+   background-image: url('/images/Project_01.jpg');   
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.descContainer{
+   display: flex;
+   flex-direction: row;
+   color: var(--grey);
+}
+.descContainer div{
+   flex: 50%;
+}
+
+.overview{
+   color: var(--blue);
+   font-family: var(--subtitle-font);
+   font-weight: 100;
+   font-size: 36px;
+   padding: 5%;
+}
+.description{
+   font-family: var(--subtitle-font);
+   font-weight: 100;
+   font-size: 24px;
+   padding: 5%;
+   line-height: 2.5rem;
+   letter-spacing: 4.5px;
+}
  .button {
    display: inline-block;
    color: var(--white);
@@ -43,34 +108,42 @@
    border-color: var(--blue);
    color: var(--blue);
 }
+
+@keyframes wipe-enter {
+	0% {
+
+      transform: translateX(-100%);
+	}
+	50% {
+
+      transform: translateX(10%) ;
+	}
+	75% {
+
+      transform: translateX(-10%) ;
+	}
+   100% {
+      transform: translateX(0%);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   .square {
+     animation-name: wipe-enter;
+     animation-duration: 3.5s;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-in-out;
+   }
+ }
+
 @media screen and (max-width: 1024px) {
-    .container{
+    .descContainer{
         flex-direction: column;
      }
-     .Bx{
-        flex: 50%;
-        margin: 10px;
-        padding: 10px;
-    }
-
-     #txt1{
-        order: 1;
-     }
-     #img1{
-        order: 2;
-     }
-     #txt2{
-        order: 3;
-     }
-     #img2{
-        order: 4;
-     }
-     #txt3{
-        order: 5;
-     }
-     #img3{
-        order: 6;
-     }
+     .overview{
+      padding: 10%;
+      text-align: center;
+   }
      .button {
       font-size: clamp(10px, 1.6vw, 20px);
       padding-top: clamp(10px, 1.6vw, 20px);
