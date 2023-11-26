@@ -12,12 +12,14 @@
     justify-content: center;
     align-items: center;
     padding: 2%;
+    margin-top: 2%;
+    margin-left: 5%;
     border-top: solid 1px var(--grey);
-    border-right: solid 1px var(--grey);
+    /* border-right: solid 1px var(--grey); */
 }
 
 .wrapper .imageBx img{
-    width: 80%;
+    width: 100%;
     border: solid 5px var(--grey);
     border-radius: 15px;
 }
@@ -25,9 +27,10 @@
 .wrapper .textBx{
     flex: 50%;
     width: 100%;
+    margin-top: 2%;
+    margin-right: 5%;
     border-top: solid 1px var(--grey);
-    padding-left: 5%;
-    padding-right: 10%;
+    padding: 2% 10% 2% 5%;
 }
 
 .textBx h2{
@@ -36,8 +39,11 @@
     font-family: var(--title-font);
     letter-spacing: 5px;
     border-bottom: solid 1px var(--grey);
-    margin-top: 5%;
     padding-bottom: 10px;
+}
+
+.textBx h2:not(:first-child){
+    margin-top: 5%;
 }
 
 .textBx h4{
@@ -53,12 +59,143 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-.textBx .techBx h4{
-    background-color: var(--grey);
-    color: var(--dark);
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    /* line-height: 75px; */
-    font-size: 10px;
+.textBx .techBx ul>li{
+    color: var(--grey);
+    text-decoration: none;
+    list-style-type: none;
+    font-family: var(--subtitle-font);
+    font-size: 18px;
+    line-height: 150%;
 }
+
+.textBx .techBx ul>li span{
+    color: var(--blue);
+    font-weight: 800;
+}
+
+.overviewWrapper{
+    background-color: var(--dark-grey);
+    height: auto;
+    border-top: solid 1px var(--grey);
+    border-bottom: solid 1px var(--grey);
+    margin: 5%;
+    padding: 2% 10%;
+}
+.overviewWrapper h2{
+    color: var(--white);
+    font-family:var(--title-font);
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.overviewWrapper p{
+    color: var(--grey);
+    font-family:var(--subtitle-font);
+    line-height: 150%;
+    letter-spacing: 3px;
+}
+
+.contentBx {
+    display: grid;
+    grid-template-areas: 'Paragraph01 Image01'
+                         'Paragraph01 Paragraph03'
+                         'Paragraph02 Image02';
+    gap: 5%;
+
+    margin: 5%;
+    padding: 2% 10%;
+    margin-bottom: 10%;
+}
+.contentBx h2{
+    color: var(--white);
+    font-family:var(--title-font);
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+.contentBx p{
+    color: var(--grey);
+    font-family:var(--subtitle-font);
+    line-height: 150%;
+    letter-spacing: 3px;
+}
+.contentBx .paragraph01{
+    grid-area: Paragraph01;
+}
+.contentBx .paragraph02{
+    grid-area: Paragraph02;
+}
+.contentBx .paragraph03{
+    grid-area: Paragraph03;
+}
+.contentBx .image01{
+    grid-area: Image01;
+}
+
+.contentBx .image01 img{
+    width: 100%;
+}
+.contentBx .image02{
+    grid-area: Image02;
+}
+.contentBx .image02 img{
+    width: 100%;
+}
+
+
+.conclusionBx{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-grey);
+    height: auto;
+    border-top: solid 1px var(--grey);
+    border-bottom: solid 1px var(--grey);
+    margin: 5%;
+    padding: 2% 10%;
+    gap: 5%;
+}
+.conclusionBx .conculsionImage{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.conclusionBx .conculsionImage img{
+    border: solid 5px var(--grey);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.conclusionBx .conclusionText{
+    flex: 50%; 
+}
+
+.conclusionBx h2{
+    color: var(--white);
+    font-family:var(--title-font);
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+.conclusionBx p{
+    color: var(--grey);
+    font-family:var(--subtitle-font);
+    line-height: 150%;
+    letter-spacing: 3px;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .contentBx {
+        display: flex;
+        flex-direction: column;
+    }
+    .conclusionBx{
+        display: flex;
+        flex-direction: column;
+    }
+  }
