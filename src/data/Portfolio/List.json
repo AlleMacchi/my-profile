@@ -8,7 +8,7 @@
         "text":"Writing the code and start-up the fully automated MDF production system.", 
         "textButton":"View Project",
         "hasButton":true,
-        "urlButton":"/projects/0"
+        "urlButton":"/portfolio/0"
     },
     {
         "id": 2,   
@@ -19,7 +19,7 @@
         "text":"Start-up the air conveyours and fully automated palletizer.", 
         "textButton":"View Project",
         "hasButton":true,
-        "urlButton":"/projects/1"   
+        "urlButton":"/portfolio/1"   
     },
     {
         "id": 3,   
@@ -30,7 +30,7 @@
         "text":"Writing the code and start-up the conveyor and paint dispensing fully automatically.", 
         "textButton":"View Project",
         "hasButton":true,
-        "urlButton":"/projects/2"   
+        "urlButton":"/portfolio/2"   
     },
     {
         "id": 4,   
@@ -41,7 +41,7 @@
         "text":"Writing the code and start-up the conveyors for the warehouse that use LGVs fully automatically.", 
         "textButton":"View Project",
         "hasButton":true,
-        "urlButton":"/projects/3"   
+        "urlButton":"/portfolio/3"   
     },
     {
         "id": 5,   
@@ -52,6 +52,6 @@
         "text":"3D Webpage SCADA prototype made with a 3D model in Blender connected to a PLC with OPC ua.", 
         "textButton":"View Project",
         "hasButton":true,
-        "urlButton":"/projects/4"   
+        "urlButton":"/portfolio/4"   
     }
 ]

@@ -1,24 +1,44 @@
-import style from '../../../styles/pages/portfolio/components/projectPage/style.module.css'
-import BackToTopButton from '../../../components/button/BackToTopButton'
+import style from '../../../styles/pages/portfolio/components/portfolioPage/style.module.css'
+import Title from '../../../components/title/title'
 
 
 export default function ProjectPage(){
-    return(
-        // <div className={`animate__animated animate__fadeIn animate__slower ${style.wrapper} `}>
+return(
+       <div className={`animate__animated animate__fadeIn animate__slower ${style.container} `}>
+            <div className={style.titleBx}>
+                <Title 
+                    /* Title */
+                    firstPartTitle='BERNECK®'
+                    secondPartTitle=''
+                    /* Subtitle */
+                    firstPartSubtitle='IMAL srl '
+                    secondPartSubtitle='1st June 2016'/>
+            </div>
 
-<       div className={`animate__animated animate__fadeIn animate__slower ${style.container} `}>
-                <div className={style.section} id={style.img1}>
-                    adfsfasddf
+            <div className={style.wrapper}>
+                <div className={style.imageBx}>
+                    <img src='/images/Project_01.jpg' />
                 </div>
-                <div className={style.section} id={style.img2}>
-                    <BackToTopButton />
+                <div className={style.textBx}>
+                    <h2>industry</h2>
+                    <h4>manufacturing process</h4>
+
+                    <h2>used technology</h2>
+                    <div className={style.techBx}>
+                        <h4>PLC Siemens</h4>
+                        <h4>S7 System</h4>
+                        <h4>LADDER</h4>
+                        <h4>Profinet</h4>
+                        <h4>Profisafe</h4>
+                        <h4>Wonderware</h4>
+                        <h4>Title</h4>
+                        <h4>Title</h4>
+                        <h4>Title</h4>
+                    </div>
+                    
+
                 </div>
-                <div className={style.section} id={style.img3}></div>
-                <div className={style.section} id={style.img4}></div>
-                <div className={style.section} id={style.img5}></div>
+            </div>
         </div>
-/*              <a href="/contact"className={style.button}>Lets Talk</a>
-            <a href="/portfolio"className={style.button}>Back to Portfolio</a> 
-        </div> */
     )
 }
