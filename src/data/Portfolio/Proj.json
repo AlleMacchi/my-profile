@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,   
+        "urlProjMedia":"/images/Project_01.jpg",   
+        "industry":"MANUFACTURING PROCESS",
+        "usedTech":{
+            "file": "/text/Proj01/UsedTech.txt",
+            "format": "text"
+        }, 
+        "country":"Brazil",
+        "overview":{
+            "file": "/text/Proj01/Overview.txt",
+            "format": "text"
+        }, 
+        "paragraph01":{
+            "file": "/text/Proj01/Paragraph01.txt",
+            "format": "text"
+        }, 
+        "paragraph02":{
+            "file": "/text/Proj01/Paragraph02.txt",
+            "format": "text"
+        }, 
+        "paragraph03":{
+            "file": "/text/Proj01/Paragraph03.txt",
+            "format": "text"
+        },                
+        "urlMedia01":{
+            "file": "/text/Proj01/urlMedia01.txt",
+            "format": "text"
+        },
+        "urlMedia02":{
+            "file": "/text/Proj01/urlMedia02.txt",
+            "format": "text"
+        },
+        "urlMedia03":{
+            "file": "/text/Proj01/urlMedia03.txt",
+            "format": "text"
+        },
+        "conclusion":{
+            "file": "/text/Proj01/Conclusion.txt",
+            "format": "text"
+        }
+    },
+    {
+        "id": 2,   
+        "urlProjMedia":"/images/Project_02.jpg",   
+        "industry":"FOOD & BEVERAGE",
+        "usedTech":{
+            "file": "/text/Proj02/UsedTech.txt",
+            "format": "text"
+        }, 
+        "country":"Ohio - U.S.A.",
+        "overview":{
+            "file": "/text/Proj02/Overview.txt",
+            "format": "text"
+        }, 
+        "paragraph01":{
+            "file": "/text/Proj02/Paragraph01.txt",
+            "format": "text"
+        }, 
+        "paragraph02":{
+            "file": "/text/Proj02/Paragraph02.txt",
+            "format": "text"
+        }, 
+        "paragraph03":{
+            "file": "/text/Proj02/Paragraph03.txt",
+            "format": "text"
+        },                           
+        "urlMedia01":{
+            "file": "/text/Proj02/urlMedia01.txt",
+            "format": "text"
+        },
+        "urlMedia02":{
+            "file": "/text/Proj02/urlMedia02.txt",
+            "format": "text"
+        },
+        "urlMedia03":{
+            "file": "/text/Proj02/urlMedia03.txt",
+            "format": "text"
+        },
+        "conclusion":{
+            "file": "/text/Proj02/Conclusion.txt",
+            "format": "text"
+        }
+    },
+    {
+        "id": 3,   
+        "urlProjMedia":"/images/Project_03.jpg",   
+        "industry":"MANUFACTURING PROCESS",
+        "usedTech":{
+            "file": "/text/Proj03/UsedTech.txt",
+            "format": "text"
+        }, 
+        "country":"Canada",
+        "overview":{
+            "file": "/text/Proj03/Overview.txt",
+            "format": "text"
+        }, 
+        "paragraph01":{
+            "file": "/text/Proj03/Paragraph01.txt",
+            "format": "text"
+        }, 
+        "paragraph02":{
+            "file": "/text/Proj03/Paragraph02.txt",
+            "format": "text"
+        }, 
+        "paragraph03":{
+            "file": "/text/Proj03/Paragraph03.txt",
+            "format": "text"
+        },                
+        "urlMedia01":{
+            "file": "/text/Proj03/urlMedia01.txt",
+            "format": "text"
+        },
+        "urlMedia02":{
+            "file": "/text/Proj03/urlMedia02.txt",
+            "format": "text"
+        },
+        "urlMedia03":{
+            "file": "/text/Proj03/urlMedia03.txt",
+            "format": "text"
+        },
+        "conclusion":{
+            "file": "/text/Proj03/Conclusion.txt",
+            "format": "text"
+        }
+    },
+    {
+        "id": 4,   
+        "urlProjMedia":"/images/Project_04.jpg",   
+        "industry":"MANUFACTURING PROCESS",
+        "usedTech":{
+            "file": "/text/Proj04/UsedTech.txt",
+            "format": "text"
+        }, 
+        "country":"Australia",
+        "overview":{
+            "file": "/text/Proj04/Overview.txt",
+            "format": "text"
+        }, 
+        "paragraph01":{
+            "file": "/text/Proj04/Paragraph01.txt",
+            "format": "text"
+        }, 
+        "paragraph02":{
+            "file": "/text/Proj04/Paragraph02.txt",
+            "format": "text"
+        }, 
+        "paragraph03":{
+            "file": "/text/Proj04/Paragraph03.txt",
+            "format": "text"
+        },                
+        "urlMedia01":{
+            "file": "/text/Proj04/urlMedia01.txt",
+            "format": "text"
+        },
+        "urlMedia02":{
+            "file": "/text/Proj04/urlMedia02.txt",
+            "format": "text"
+        },
+        "urlMedia03":{
+            "file": "/text/Proj04/urlMedia03.txt",
+            "format": "text"
+        },
+        "conclusion":{
+            "file": "/text/Proj04/Conclusion.txt",
+            "format": "text"
+        }
+    },
+    {
+        "id": 5,   
+        "urlProjMedia":"/images/Project_05.jpg",   
+        "industry":"MANUFACTURING PROCESS",
+        "usedTech":{
+            "file": "/text/Proj04/UsedTech.txt",
+            "format": "text"
+        }, 
+        "country":"Australia",
+        "overview":{
+            "file": "/text/Proj05/Overview.txt",
+            "format": "text"
+        }, 
+        "paragraph01":{
+            "file": "/text/Proj05/Paragraph01.txt",
+            "format": "text"
+        }, 
+        "paragraph02":{
+            "file": "/text/Proj05/Paragraph02.txt",
+            "format": "text"
+        }, 
+        "paragraph03":{
+            "file": "/text/Proj05/Paragraph03.txt",
+            "format": "text"
+        },                
+        "urlMedia01":{
+            "file": "/text/Proj05/urlMedia01.txt",
+            "format": "text"
+        },
+        "urlMedia02":{
+            "file": "/text/Proj05/urlMedia02.txt",
+            "format": "text"
+        },
+        "urlMedia03":{
+            "file": "/text/Proj05/urlMedia03.txt",
+            "format": "text"
+        },
+        "conclusion":{
+            "file": "/text/Proj05/Conclusion.txt",
+            "format": "text"
+        }
+    }
+]

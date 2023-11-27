@@ -1,0 +1,5 @@
+<h2>Automation and Technology</h2>
+<br />
+<p><span>Industry 4.0 Integration:</span> PEPSI and data analytics for improved efficiency.<br />
+    <span>Remote Monitoring:</span> Implement systems for remote monitoring and control of the production process.<br />
+</p>

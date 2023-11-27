@@ -1,0 +1,10 @@
+<ul>
+    <li><span>PLC: </span>CPUSafe Siemens</li>
+    <li><span>Language: </span>Ladder</li>
+    <li><span>Network: </span>Profinet</li>
+    <li><span>Safe Net: </span>Profinet</li>
+    <li><span>SCADA: </span>Wonderware</li>
+    <li><span>Electric connection: </span>Cable</li>
+    <li><span>Mechanical: </span>Heavy</li>
+    <li><span>Hydraulic: </span>Oil & Air</li>
+</ul>

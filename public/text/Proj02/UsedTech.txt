@@ -1,0 +1,10 @@
+<ul>
+    <li><span>PLC: </span>Allen Bradley Studio 5000</li>
+    <li><span>Language: </span>Ladder and STL</li>
+    <li><span>Network: </span>Ethernet</li>
+    <li><span>Safe: </span>Pilz</li>
+    <li><span>SCADA: </span>Made in C#</li>
+    <li><span>Electric connection: </span>Cable</li>
+    <li><span>Mechanical: </span>Standard Machine</li>
+    <li><span>Hydraulic: </span>Air</li>
+</ul>

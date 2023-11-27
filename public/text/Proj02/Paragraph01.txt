@@ -1,0 +1,11 @@
+<h2>Production Process</h2>
+<br />
+<p> <span>Air Conveyors:</span> Air conveyors are commonly used in the beverage industry 
+    for the transportation of empty bottles or containers. These conveyors use compressed 
+    air to move containers along the production line. They are preferred for their efficiency, cleanliness, and flexibility.
+</p>
+<br />
+<p> <span>Palletizers:</span> Palletizing equipment is used to automate the process of stacking and organizing finished products 
+    (such as cases of beverages) onto pallets for easier handling and transportation. Palletizers can be robotic or conventional, 
+    and they play a crucial role in the packaging and logistics phase of production.In this case is conventional Palletizer.
+</p>
