@@ -22,7 +22,7 @@ export default function ProjectPage({params}){
 // const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-const Overview =<ReadFiles url= '/public/text/Proj01/Overview.txt' />;
+const Overview ='Berneck has a history dating back to its establishment in 1952. The company is headquartered in Curitibanos, Santa Catarina, Brazil.Berneck is known for its involvement in the production of wood-based products.';
 const Paragraph01 = '<p>Paragraph01</p>';
 const Paragraph02 = '<p>Paragraph02</p>';
 const Paragraph03 = '<p>Paragraph03</p>';
