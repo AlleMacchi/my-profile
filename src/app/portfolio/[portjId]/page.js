@@ -14,7 +14,7 @@ import path from 'path';
 
 export default async function ProjectPage({params}){
 
-    const filePath = Data[params.portjId].overview.file.toString();
+    const filePath = '/text/Proj01/Overview.txt';
     const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
     const fileContent = buffer.toString();
 
