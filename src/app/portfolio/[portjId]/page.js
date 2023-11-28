@@ -14,9 +14,9 @@ import path from 'path';
 
 export default async function ProjectPage({params}){
 
-    // const filePath = Data[params.portjId].overview.file.toString();
-    // const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
-    // const fileContent = buffer.toString();
+    const filePath = Data[params.portjId].overview.file.toString();
+    const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
+    const fileContent = buffer.toString();
 
 // const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
 // const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
@@ -28,7 +28,7 @@ export default async function ProjectPage({params}){
 // const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file.toString(), 'utf-8').toString();
+const Overview = fileContent;
 const Paragraph01 = '<p>Paragraph02</p>';
 const Paragraph02 = '<p>Paragraph02</p>';
 const Paragraph03 = '<p>Paragraph03</p>';
