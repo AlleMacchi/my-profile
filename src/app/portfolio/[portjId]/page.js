@@ -9,12 +9,12 @@ import ReadFiles from '../../../api/readfiles'
 // import { readFileSync } from 'fs';
 // var fs = require('fs');
 
-import { readFileSync } from 'fs';
-import { join } from 'path';
+const fs = require("fs");
 
 export default async function ProjectPage({params}){
-    const StaticData = readFileSync( './public/text/Proj01/Overview.txt' , 'utf8');
-    console.log( StaticData);
+    const buffer = fs.readFileSync( './public/text/Proj01/Overview.txt');
+    const fileContent = buffer.toString();
+    console.log(fileContent);
 
 // const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
 // const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
@@ -26,7 +26,7 @@ export default async function ProjectPage({params}){
 // const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-const Overview = readFileSync( './public/text/Proj01/Overview.txt' , 'utf8');
+const Overview = fileContent;
 const Paragraph01 = '<p>Paragraph01</p>';
 const Paragraph02 = '<p>Paragraph02</p>';
 const Paragraph03 = '<p>Paragraph03</p>';
