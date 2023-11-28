@@ -1,10 +1,12 @@
 <h2>Challenges and Solutions</h2>
 <br />
-    <h4>Regulatory Compliance:</h4><br />
-<p><span>Environmental Regulations:</span> Stay compliant with environmental regulations to minimize negative impacts.<br />
-    <span>Quality Standards:</span> Ensure adherence to industry quality standards and certifications.<br />
-    <br />
-</p>
-    <h4>Cost Management:</h4><br />
-<p><span>Operational Costs:</span> Monitor and optimize operational costs through efficient resource utilization.<br />
+    <p><span>Smart filling system:</span> The system was composed of a roller transport, 
+            with sensors that determined the size and material of each individual can, depending on the type of can, 
+            the system independently moved the stops of the product, sent the data for the quantity of filling and stopped at 
+            the correct capping station, furthermore, different types of cans could be inserted, given that the system was 
+            able to recognize their type. In addition to handling, I also managed the capping cycles and data exchange with 
+            the filler. The HMI (Human-Machine Interface) was implemented using WinCC from Siemens. Overall, the system was 
+            highly automated and efficient, with the ability to handle a variety of barrel types and sizes. The use of sensors 
+            and data exchange with the filler ensured accurate and consistent filling, while the HMI provided easy control 
+            and monitoring of the system.
 </p>

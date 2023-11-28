@@ -1,8 +1,13 @@
 <h2>Conclusion</h2>
 <p>
-PEPSI
-</p>
-<br />
-<p>Thanks:
-With the collaboration of everyone, including electricians, mechanical fitters and external suppliers, the objective was achieved within the proposed times and with the optimal quality as per the contract.
+    In conclusion, this startup has successfully 
+    developed a new line of air transport systems 
+    and a palletizer with 6 linear axes. These machines 
+    are designed to improve efficiency and productivity 
+    in the manufacturing and logistics industries. 
+    The air transport systems allow for fast and reliable 
+    transport of goods, while the palletizer with 6 linear axes 
+    provides accurate and stable palletizing of products. 
+    I am confident that this innovative solution will help this client 
+    to reduce labor costs, increase safety, and improve the overall quality of their operations.
 </p>

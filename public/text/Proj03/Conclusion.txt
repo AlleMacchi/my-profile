@@ -1,8 +1,11 @@
 <h2>Conclusion</h2>
 <p>
-Summarize the key aspects of the MDF production system, highlighting its efficiency, sustainability and compliance with quality standards. The dosing control system for gluing components is controlled with an automatic PID system, furthermore the wood dosing process for production was carried out with a proportional control system based on the weight and speed of the dosing bunker. Provide recommendations for continuous improvements, such as exploring new technologies, expanding sustainability initiatives, and staying current on industry progress.
-</p>
-<br />
-<p>Thanks:
-With the collaboration of everyone, including electricians, mechanical fitters and external suppliers, the objective was achieved within the proposed times and with the optimal quality as per the contract.
+In conclusion, the system described above is a highly advanced and 
+efficient solution for the automated filling and capping of cans. 
+The use of sensors and data exchange with the filler ensures accurate 
+and consistent filling, while the conveyor belt system and HMI provide easy 
+control and monitoring of the process. The ability to handle different types 
+of cans and sizes makes the system highly versatile and adaptable to a wide 
+range of applications. Overall, this system represents a significant step 
+forward in the automation of can filling and capping processes.
 </p>
