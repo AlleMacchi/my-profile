@@ -1,3 +1,4 @@
+"use client"
 import style from '../../../styles/pages/portfolio/components/portfolioPage/style.module.css'
 import Title from '../../../components/title/title'
 import GeneralData from '../../../data/Portfolio/List.json'
