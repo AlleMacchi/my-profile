@@ -30,7 +30,7 @@ export default async function ProjectPage({params}){
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
 const Overview = fileContent;
-const Paragraph01 = '<p>Paragraph01</p>';
+const Paragraph01 = Data[params.portjId].overview.file;
 const Paragraph02 = '<p>Paragraph02</p>';
 const Paragraph03 = '<p>Paragraph03</p>';
 const UseTech = '<p>Paragraph01</p>';
