@@ -9,10 +9,13 @@ import ReadFiles from '../../../api/readfiles'
 // import { readFileSync } from 'fs';
 // var fs = require('fs');
 
-const fs = require("fs");
+import fs from 'fs';
+import path from 'path';
 
 export default async function ProjectPage({params}){
-    const buffer = fs.readFileSync( './public/text/Proj01/Overview.txt');
+
+    const filePath = path.join(process.cwd(), 'public', '/text/Proj01/Overview.txt');
+    const buffer = fs.readFileSync(filePath, 'utf-8');
     const fileContent = buffer.toString();
     console.log(fileContent);
 
