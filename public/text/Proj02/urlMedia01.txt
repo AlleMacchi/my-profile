@@ -1,1 +1,1 @@
-<video autoPlay loop muted><source src="/videos/EasyPal01.mp4" type="video/mp4" /></video>
+<img src='/images/Project_02_img_02.jpg' />
