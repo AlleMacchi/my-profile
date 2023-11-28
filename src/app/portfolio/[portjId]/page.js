@@ -4,31 +4,33 @@ import GeneralData from '../../../data/Portfolio/List.json'
 import Data from '../../../data/Portfolio/Proj.json'
 
 import ParseTxtToHtml from '../components/ParseTxtToHtml'
+import ReadFiles from '../../../api/readfiles'
 
 // import { readFileSync } from 'fs';
-var fs = require('fs');
+// var fs = require('fs');
 
 export default function ProjectPage({params}){
 
-const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
-const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
-const Paragraph02 = fs.readFileSync('./public/' + Data[params.portjId].paragraph02.file, 'utf-8');
-const Paragraph03 = fs.readFileSync('./public/' + Data[params.portjId].paragraph03.file, 'utf-8');
-const UseTech = fs.readFileSync('./public/' + Data[params.portjId].usedTech.file, 'utf-8');
-const urlMedia01 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia01.file, 'utf-8');
-const urlMedia02 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia02.file, 'utf-8');
-const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
-const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-// const Overview = 'Overview';
-// const Paragraph01 = '<p>Paragraph01</p>';
-// const Paragraph02 = '<p>Paragraph02</p>';
-// const Paragraph03 = '<p>Paragraph03</p>';
-// const UseTech = '<p>Paragraph01</p>';
-// const urlMedia01 = '<p>urlMedia01</p>';
-// const urlMedia02 = '<p>urlMedia02</p>';
-// const urlMedia03 = '<p>urlMedia03</p>';
-// const Conclusion = '<p>Conclusion</p>';
+// const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
+// const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
+// const Paragraph02 = fs.readFileSync('./public/' + Data[params.portjId].paragraph02.file, 'utf-8');
+// const Paragraph03 = fs.readFileSync('./public/' + Data[params.portjId].paragraph03.file, 'utf-8');
+// const UseTech = fs.readFileSync('./public/' + Data[params.portjId].usedTech.file, 'utf-8');
+// const urlMedia01 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia01.file, 'utf-8');
+// const urlMedia02 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia02.file, 'utf-8');
+// const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
+// const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
+
+const Overview =<ReadFiles url= '/public/text/Proj01/Overview.txt' />;
+const Paragraph01 = '<p>Paragraph01</p>';
+const Paragraph02 = '<p>Paragraph02</p>';
+const Paragraph03 = '<p>Paragraph03</p>';
+const UseTech = '<p>Paragraph01</p>';
+const urlMedia01 = '<p>urlMedia01</p>';
+const urlMedia02 = '<p>urlMedia02</p>';
+const urlMedia03 = '<p>urlMedia03</p>';
+const Conclusion = '<p>Conclusion</p>';
 
 
 return(
@@ -63,6 +65,7 @@ return(
             <div className={style.overviewWrapper}>
                 <h2>Overview</h2>
                 <p>{Overview}
+                {/* <ReadFiles url= '/public/text/Proj01/Overview.txt' />; */}
                 </p>
             </div>
             <div className={style.contentBx}>
