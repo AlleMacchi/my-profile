@@ -9,8 +9,12 @@ import ReadFiles from '../../../api/readfiles'
 // import { readFileSync } from 'fs';
 // var fs = require('fs');
 
-export default function ProjectPage({params}){
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
+export default async function ProjectPage({params}){
+    const StaticData = readFileSync( './public/text/Proj01/Overview.txt' , 'utf8');
+    console.log( StaticData);
 
 // const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
 // const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
@@ -22,7 +26,7 @@ export default function ProjectPage({params}){
 // const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-const Overview ='Berneck has a history dating back to its establishment in 1952. The company is headquartered in Curitibanos, Santa Catarina, Brazil.Berneck is known for its involvement in the production of wood-based products.';
+const Overview = readFileSync( './public/text/Proj01/Overview.txt' , 'utf8');
 const Paragraph01 = '<p>Paragraph01</p>';
 const Paragraph02 = '<p>Paragraph02</p>';
 const Paragraph03 = '<p>Paragraph03</p>';
