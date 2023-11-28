@@ -9,14 +9,14 @@ import ReadFiles from '../../../api/readfiles'
 // import { readFileSync } from 'fs';
 // var fs = require('fs');
 
-import fs from 'fs';
-import path from 'path';
+// import fs from 'fs';
+// import path from 'path';
 
 export default async function ProjectPage({params}){
 
-    const filePath = '/text/Proj01/Overview.txt';
-    const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
-    const fileContent = buffer.toString();
+    // const filePath = '/text/Proj01/Overview.txt';
+    // const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
+    // const fileContent = buffer.toString();
 
 // const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
 // const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
@@ -28,7 +28,7 @@ export default async function ProjectPage({params}){
 // const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-const Overview = fileContent;
+const Overview = <ReadFiles path='/text/Proj01/Overview.txt'/>;
 const Paragraph01 = '<p>Paragraph02</p>';
 const Paragraph02 = '<p>Paragraph02</p>';
 const Paragraph03 = '<p>Paragraph03</p>';

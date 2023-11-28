@@ -1,11 +1,14 @@
 import { promises as fs } from 'fs';
+import path from 'path';
 
 export default async function ReadFiles(props) {
-  const file = await fs.readFile(process.cwd() + props.url, 'utf8');
+  const filePath = props.path;
+  const buffer = await fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
+  const fileContent = buffer.toString();
 
   return (
     <>
-      {file}
+      {fileContent}
     </>
   );
 }
