@@ -42,7 +42,7 @@ return(
 
                     <h2>used technology</h2>
                     <div className={style.techBx}>
-                        <ParseTxtToHtml Txt={UseTech} />  
+                        {/* <ParseTxtToHtml Txt={UseTech} />   */}
                     </div>
                     <h2>Country</h2>
                     <h4>{Data[params.portjId].country}</h4>
@@ -56,28 +56,28 @@ return(
             </div>
             <div className={style.contentBx}>
                 <div className={style.paragraph01}>
-                    <ParseTxtToHtml Txt={Paragraph01} />  
+                    {/* <ParseTxtToHtml Txt={Paragraph01} />   */}
                 </div>
                 <div className={style.paragraph02}>
-                    <ParseTxtToHtml Txt={Paragraph02} /> 
+                    {/* <ParseTxtToHtml Txt={Paragraph02} />  */}
                 </div>
                 <div className={style.image01}>
-                    <ParseTxtToHtml Txt={urlMedia01} />  
+                    {/* <ParseTxtToHtml Txt={urlMedia01} />   */}
                 </div>
                 <div className={style.paragraph03}>
-                    <ParseTxtToHtml Txt={Paragraph03} />
+                    {/* <ParseTxtToHtml Txt={Paragraph03} /> */}
                 </div>
                 <div className={style.image02}>
-                    <ParseTxtToHtml Txt={urlMedia02} />
+                    {/* <ParseTxtToHtml Txt={urlMedia02} /> */}
                 </div>
             </div>
             
             <div className={style.conclusionBx}>
                 <div className={style.conculsionImage} id={style.conclusionIdImage}>                    
-                    <ParseTxtToHtml Txt={urlMedia03} />
+                    {/* <ParseTxtToHtml Txt={urlMedia03} /> */}
                 </div>
                 <div className={style.conclusionText} id={style.conclusionIdText}>
-                    <ParseTxtToHtml Txt={Conclusion} />
+                    {/* <ParseTxtToHtml Txt={Conclusion} /> */}
                 </div>
             </div>
             <div className={style.titleBx}>
