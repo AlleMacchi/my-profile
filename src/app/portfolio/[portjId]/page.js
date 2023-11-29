@@ -2,6 +2,7 @@ import style from '../../../styles/pages/portfolio/components/portfolioPage/styl
 import Title from '../../../components/title/title'
 import GeneralData from '../../../data/Portfolio/List.json'
 import Data from '../../../data/Portfolio/Proj.json'
+import TextData from '../../../data/Portfolio/TextProj.json'
 
 import ParseTxtToHtml from '../components/ParseTxtToHtml'
 import ReadFiles from '../../../api/readfiles'
@@ -9,14 +10,14 @@ import ReadFiles from '../../../api/readfiles'
 // import { readFileSync } from 'fs';
 // var fs = require('fs');
 
-import fs from 'fs';
-import path from 'path';
+// import fs from 'fs';
+// import path from 'path';
 
 export default async function ProjectPage({params}){
     
-    const filePath = '/text/Proj01/Overview.txt';
-    const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
-    const fileContent = buffer.toString();
+    // const filePath = '/text/Proj01/Overview.txt';
+    // const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
+    // const fileContent = buffer.toString();
 
 // const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
 // const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
@@ -28,15 +29,15 @@ export default async function ProjectPage({params}){
 // const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-const Overview = fileContent;
-const Paragraph01 = '<p>Paragraph02</p>';
-const Paragraph02 = '<p>Paragraph02</p>';
-const Paragraph03 = '<p>Paragraph03</p>';
+const Overview = TextData[params.portjId].overview;
+const Paragraph01 = TextData[params.portjId].paragraph01;
+const Paragraph02 = TextData[params.portjId].paragraph02;
+const Paragraph03 = TextData[params.portjId].paragraph03;
 const UseTech = '<p>Paragraph01</p>';
-const urlMedia01 = '<p>urlMedia01</p>';
-const urlMedia02 = '<p>urlMedia02</p>';
-const urlMedia03 = '<p>urlMedia03</p>';
-const Conclusion = '<p>Conclusion</p>';
+const urlMedia01 = TextData[params.portjId].urlMedia01;
+const urlMedia02 = TextData[params.portjId].urlMedia02;
+const urlMedia03 = TextData[params.portjId].urlMedia03;
+const Conclusion = TextData[params.portjId].conclusion;
 
 
 return(
