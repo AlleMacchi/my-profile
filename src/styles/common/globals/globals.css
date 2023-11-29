@@ -13,6 +13,19 @@
   --background_button: #272727;
   --dark-grey: #333;
 
+  --light-blue:#00FFFF;
+  --yellow:#F5CD19;
+  --red:#FF0707;
+  --yellow-text:#ddc96d;
+  --red-text:#af4747;
+  --grey-light:#777;
+  --grey-dark:#555;
+  --green:#50fc1c;
+  --black-background: #1f1f1f;
+  --black-transparent:rgba(66, 66, 66, 0.5);
+  --white-text:#afafaf;
+  --grey-background:rgb(59, 59, 59);
+
   /* SIZE */
   --height-header: 10vh;
   --height-footer: 50px;

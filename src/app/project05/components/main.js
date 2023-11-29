@@ -7,6 +7,7 @@ import Layout3D from "./Layout3D";
 import annotations from "../../../data/Position3D/annotations.json";
 import ButtonGoToView from '../components/ButtonGoToView';
 import ButtonHomeView from "../components/ButtonHomeView";
+import Menu from '../components/menu/menu'
 
 import style from '../../../styles/pages/project05/main/style.module.css'
 
@@ -43,6 +44,7 @@ export default function Main(){
                 <CameraControls position={position} target={target} />
                 </Canvas>
                 <ButtonHomeView gotoView={GoToView} />
+                <Menu />
             </Suspense>
         </div>      
         <div className={style.portrait}> 
