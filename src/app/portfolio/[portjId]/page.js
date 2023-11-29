@@ -2,10 +2,10 @@ import style from '../../../styles/pages/portfolio/components/portfolioPage/styl
 import Title from '../../../components/title/title'
 import GeneralData from '../../../data/Portfolio/List.json'
 import Data from '../../../data/Portfolio/Proj.json'
-import TextData from '../../../data/Portfolio/TextProj.json'
+
 
 import ParseTxtToHtml from '../components/ParseTxtToHtml'
-import ReadFiles from '../../../api/readfiles'
+
 
 // import { readFileSync } from 'fs';
 // var fs = require('fs');
@@ -29,15 +29,15 @@ export default async function ProjectPage({params}){
 // const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
 // const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
 
-const Overview = TextData[params.portjId].overview;
-const Paragraph01 = TextData[params.portjId].paragraph01;
-const Paragraph02 = TextData[params.portjId].paragraph02;
+const Overview = Data[params.portjId].overview;
+const Paragraph01 = Data[params.portjId].paragraph01;
+const Paragraph02 = Data[params.portjId].paragraph02;
 const Paragraph03 = TextData[params.portjId].paragraph03;
 const UseTech = '<p>Paragraph01</p>';
-const urlMedia01 = TextData[params.portjId].urlMedia01;
-const urlMedia02 = TextData[params.portjId].urlMedia02;
-const urlMedia03 = TextData[params.portjId].urlMedia03;
-const Conclusion = TextData[params.portjId].conclusion;
+const urlMedia01 = Data[params.portjId].urlMedia01;
+const urlMedia02 = Data[params.portjId].urlMedia02;
+const urlMedia03 = Data[params.portjId].urlMedia03;
+const Conclusion = Data[params.portjId].conclusion;
 
 
 return(
@@ -72,7 +72,6 @@ return(
             <div className={style.overviewWrapper}>
                 <h2>Overview</h2>
                 <p>{Overview}
-                {/* <ReadFiles url= '/public/text/Proj01/Overview.txt' />; */}
                 </p>
             </div>
             <div className={style.contentBx}>
