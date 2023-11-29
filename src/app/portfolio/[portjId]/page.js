@@ -32,7 +32,7 @@ export default async function ProjectPage({params}){
 const Overview = Data[params.portjId].overview;
 const Paragraph01 = Data[params.portjId].paragraph01;
 const Paragraph02 = Data[params.portjId].paragraph02;
-const Paragraph03 = TextData[params.portjId].paragraph03;
+const Paragraph03 = Data[params.portjId].paragraph03;
 const UseTech = '<p>Paragraph01</p>';
 const urlMedia01 = Data[params.portjId].urlMedia01;
 const urlMedia02 = Data[params.portjId].urlMedia02;
