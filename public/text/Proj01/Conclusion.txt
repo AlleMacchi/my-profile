@@ -1,8 +1,0 @@
-<h2>Conclusion</h2>
-<p>
-Summarize the key aspects of the MDF production system, highlighting its efficiency, sustainability and compliance with quality standards. The dosing control system for gluing components is controlled with an automatic PID system, furthermore the wood dosing process for production was carried out with a proportional control system based on the weight and speed of the dosing bunker. Provide recommendations for continuous improvements, such as exploring new technologies, expanding sustainability initiatives, and staying current on industry progress.
-</p>
-<br />
-<p>Thanks:
-With the collaboration of everyone, including electricians, mechanical fitters and external suppliers, the objective was achieved within the proposed times and with the optimal quality as per the contract.
-</p>

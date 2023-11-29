@@ -52,6 +52,6 @@
         "text":"3D Webpage SCADA prototype made with a 3D model in Blender connected to a PLC with OPC ua.", 
         "textButton":"View Project",
         "hasButton":true,
-        "urlButton":"/portfolio/4"   
+        "urlButton":"/project05"   
     }
 ]

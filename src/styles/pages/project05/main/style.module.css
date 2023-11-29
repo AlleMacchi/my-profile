@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height:  calc(100vh - var(--height-header));
+    width: 100%;
+    background-image: linear-gradient(#575757, #1f1f1f);
+    overflow: hidden;
+}
