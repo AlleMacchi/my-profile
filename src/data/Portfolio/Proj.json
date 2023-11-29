@@ -3,14 +3,11 @@
         "id": 1,   
         "urlProjMedia":"/images/Project_01.jpg",   
         "industry":"MANUFACTURING PROCESS",
-        "usedTech":{
-            "file": "/text/Proj01/UsedTech.txt",
-            "format": "text"
-        }, 
+        "usedTech":"<ul><li><span>PLC: </span>CPUSafe Siemens</li><li><span>Language: </span>Ladder</li><li><span>Network: </span>Profinet</li><li><span>Safe Net: </span>ProfiSafe</li><li><span>SCADA: </span>Wonderware</li><li><span>Electric connection: </span>Cable</li><li><span>Mechanical: </span>Heavy</li><li><span>Hydraulic: </span>Oil & Air</li></ul>", 
         "country":"Brazil",
         "overview":"Berneck has a history dating back to its establishment in 1952.The company is headquartered in Curitibanos, Santa Catarina, Brazil. Berneck is known for its involvement in the production of wood-based products. This includes plywood and other engineered wood products. The company may also be involved in the production of MDF (Medium Density Fiberboard), an engineered wood product widely used in furniture and construction. As with many companies in the wood industry, sustainability and responsible forestry practices are crucial. Companies like Berneck often emphasize sustainable sourcing of raw materials and responsible environmental practices. Berneck likely has a significant presence in the Brazilian and possibly international markets, providing wood products for construction, furniture, and other industries. Successful companies in the wood industry often invest in modern technologies for manufacturing processes, quality control, and sustainability measures. Berneck might be incorporating advanced technologies in its production systems.", 
         "paragraph01":"<h2>Production Process</h2><br /><p> <span>Wood Fiber Preparation:</span> Design a process for breaking down wood into fibers efficiently.<br /><span>Resin and Wax Mixing:</span> Establish a controlled environment for combining resin and wax with wood fibers.<br /><span>Forming Panels:</span> Develop a method for forming panels under high temperature and pressure.<br /><span>Curing and Finishing:</span> Implement a curing process and finishing touches to ensure product durability and quality.<br /><br /></p><h4>Energy Efficiency:</h4><br /><p><span>Optimized Heating System:</span> Consider energy-efficient heating systems to reduce operational costs.<br /><span>Waste Heat Recovery:</span> Implement systems to capture and reuse waste heat generated during production.<br /><br /></p><h4>Quality Control:</h4><br /><p><span>Automated Inspection:</span> Utilize sensors and automated systems for real-time quality control.<br /><span>Testing Protocols</span>: Develop testing protocols to ensure compliance with industry standards.<br /><br /></p><h4>Environmental Impact:</h4><br /><p><span>Waste Management:</span> Implement a comprehensive waste management system for by-products.<br /><span>Sustainability Measures:</span> Consider sustainable practices in wood sourcing and production processes.<br /></p>", 
-        "paragraph02":"<h2>Automation and Technology</h2><br /><p><span>Industry 4.0 Integration:</span> Incorporate automation and data analytics for improved efficiency.</p><br /><p>span>Remote Monitoring:</span> Implement systems for remote monitoring and control of the production process.<br /></p>", 
+        "paragraph02":"<h2>Automation and Technology</h2><br /><p><span>Industry 4.0 Integration:</span> Incorporate automation and data analytics for improved efficiency.</p><br /><p><span>Remote Monitoring:</span> Implement systems for remote monitoring and control of the production process.<br /></p>", 
         "paragraph03":"<h2>Challenges and Solutions</h2><br /><h4>Regulatory Compliance:</h4><br /><p><span>Environmental Regulations:</span> Stay compliant with environmental regulations to minimize negative impacts.<br /><span>Quality Standards:</span> Ensure adherence to industry quality standards and certifications.<br /><br /></p><h4>Cost Management:</h4><br /><p><span>Operational Costs:</span> Monitor and optimize operational costs through efficient resource utilization.<br /></p>",                
         "urlMedia01":"<img src='/images/Project_01_img_01.jpg' />",
         "urlMedia02":"<img src='/images/Project_01_img_03.jpg' />",
@@ -21,168 +18,57 @@
         "id": 2,   
         "urlProjMedia":"/images/Project_02.jpg",   
         "industry":"FOOD & BEVERAGE",
-        "usedTech":{
-            "file": "/text/Proj02/UsedTech.txt",
-            "format": "text"
-        }, 
-        "country":"Ohio - U.S.A.",
-        "overview":{
-            "file": "/text/Proj02/Overview.txt",
-            "format": "text"
-        }, 
-        "paragraph01":{
-            "file": "/text/Proj02/Paragraph01.txt",
-            "format": "text"
-        }, 
-        "paragraph02":{
-            "file": "/text/Proj02/Paragraph02.txt",
-            "format": "text"
-        }, 
-        "paragraph03":{
-            "file": "/text/Proj02/Paragraph03.txt",
-            "format": "text"
-        },                           
-        "urlMedia01":{
-            "file": "/text/Proj02/urlMedia01.txt",
-            "format": "text"
-        },
-        "urlMedia02":{
-            "file": "/text/Proj02/urlMedia02.txt",
-            "format": "text"
-        },
-        "urlMedia03":{
-            "file": "/text/Proj02/urlMedia03.txt",
-            "format": "text"
-        },
-        "conclusion":{
-            "file": "/text/Proj02/Conclusion.txt",
-            "format": "text"
-        }
+        "usedTech":"<ul><li><span>PLC: </span>Allen Bradley Studio 5000</li><li><span>Language: </span>Ladder and STL</li><li><span>Network: </span>Ethernet</li><li><span>Safe: </span>Pilz</li>    <li><span>SCADA: </span>Made in C#</li><li><span>Electric connection: </span>Cable</li><li><span>Mechanical: </span>Standard Machine</li><li><span>Hydraulic: </span>Air</li></ul>", 
+        "overview":"G&J Pepsi-Cola Bottlers Inc. is a beverage company based in Columbus, Ohio, and it operates as a franchisee of PepsiCo. Please note that there might have been changes or developments in the company since then, and it's a good idea to check more recent sources for the latest information.", 
+        "paragraph01":"<h2>Production Process</h2><br /><p> <span>Air Conveyors:</span> Air conveyors are commonly used in the beverage industry for the transportation of empty bottles or containers. These conveyors use compressed air to move containers along the production line. They are preferred for their efficiency, cleanliness, and flexibility.</p><br /><p> <span>Palletizers:</span> Palletizing equipment is used to automate the process of stacking and organizing finished products (such as cases of beverages) onto pallets for easier handling and transportation. Palletizers can be robotic or conventional, and they play a crucial role in the packaging and logistics phase of production.In this case is conventional Palletizer.</p>", 
+        "paragraph02":"<h2>Automation and Technology</h2><br /><p><span>Industry 4.0 Integration:</span> Incorporate automation and data analytics for improved efficiency.</p><br /><p><span>Remote Monitoring:</span> Implement systems for remote monitoring and control of the production process.<br /></p>", 
+        "paragraph03":"<h2>Challenges and Solutions</h2><br /><p><span>Easy Pal:</span> Easy Pal is a palletizer system designed to simplify the loading and unloading of products onto pallets. It is designed to reduce the risk of injuries and increase productivity. It is a convenient and efficient solution for moving products in the food industry.</p><br /><p> <span>How it work:</span> A palletizer with 6 linear axes is a type of automated machinery used in the manufacturing and logistics industries to efficiently stack and organize products onto pallets. It consists of a frame, and a series of linear axes that move in X, Y, and Z directions. The linear axes allow the machine to accurately position and align products inside deposit basket, while the head helps to position the products on pallet and ensure stability. This type of palletizer is suitable for high-speed production lines and irregularly shaped items. It can improve productivity, reduce labor costs, and increase safety in the workplace.<br /></p>",                
+        "urlMedia01":"<img src='/images/Project_02_img_02.jpg' />",
+        "urlMedia02":"<video autoPlay loop muted><source src='/videos/EasyPal02.mp4' type='video/mp4' /></video>",
+        "urlMedia03":"<video autoPlay loop muted><source src='/videos/AirConv.mp4' type='video/mp4' /></video>",
+        "conclusion":"<h2>Conclusion</h2><p> In conclusion, this startup has successfully developed a new line of air transport systems and a palletizer with 6 linear axes. These machines are designed to improve efficiency and productivity in the manufacturing and logistics industries. The air transport systems allow for fast and reliable transport of goods, while the palletizer with 6 linear axes provides accurate and stable palletizing of products. I am confident that this innovative solution will help this client to reduce labor costs, increase safety, and improve the overall quality of their operations.</p>"
     },
     {
         "id": 3,   
         "urlProjMedia":"/images/Project_03.jpg",   
         "industry":"MANUFACTURING PROCESS",
-        "usedTech":{
-            "file": "/text/Proj03/UsedTech.txt",
-            "format": "text"
-        }, 
-        "country":"Italy - Canada",
-        "overview":{
-            "file": "/text/Proj03/Overview.txt",
-            "format": "text"
-        }, 
-        "paragraph01":{
-            "file": "/text/Proj03/Paragraph01.txt",
-            "format": "text"
-        }, 
-        "paragraph02":{
-            "file": "/text/Proj03/Paragraph02.txt",
-            "format": "text"
-        }, 
-        "paragraph03":{
-            "file": "/text/Proj03/Paragraph03.txt",
-            "format": "text"
-        },                
-        "urlMedia01":{
-            "file": "/text/Proj03/urlMedia01.txt",
-            "format": "text"
-        },
-        "urlMedia02":{
-            "file": "/text/Proj03/urlMedia02.txt",
-            "format": "text"
-        },
-        "urlMedia03":{
-            "file": "/text/Proj03/urlMedia03.txt",
-            "format": "text"
-        },
-        "conclusion":{
-            "file": "/text/Proj03/Conclusion.txt",
-            "format": "text"
-        }
+        "usedTech":"<ul><li><span>PLC: </span>Siemens</li><li><span>Language: </span>Ladder/SCL in TIA Portal</li><li><span>Network: </span>Profinet</li><li><span>Safe: </span>Pilz</li><li><span>SCADA: </span>WinCC</li><li><span>Electric connection: </span>Cable</li><li><span>Mechanical: </span>Standard Machine</li><li><span>Hydraulic: </span>Air</li></ul>", 
+        "overview":"COROB is an Italian company that has established itself as a leading provider of innovative dispensing and mixing solutions tailored for the paint and coatings industry. With a focus on precision and efficiency, COROB's technologies play a crucial role in enhancing the production processes of paint manufacturers and related industries. COROB offers a range of dispensing systems designed to accurately measure and dispense colorants, additives, and other materials used in paint and coating formulations. These solutions contribute to precise color matching and consistent product quality.", 
+        "paragraph01":"<h2>Production Process</h2><br /><p> The process of filling paint cans involves several steps to ensure that the paint is evenly distributed and the cans are properly sealed. Here is a brief description of the process: </p> <br />  <p> <span>1. Preparation:</span> First, the paint cans are cleaned and dried to remove any residue or contaminants. Then, the paint is mixed according to the desired color and consistency.  </p>   <br />   <p>  <span>2. Filling:</span> The paint is poured into the cans, taking care to avoid spills or splatters. The cans are typically filled to a specific level to ensure the correct amount of paint is dispensed.  </p>    <br />  <p><span>3. Sealing:</span> The cans are then sealed with a lid or a metal disk that fits snugly over the top of the can. This helps to prevent the paint from drying out and keeps the can clean and organized.  </p>  <br /> <p><span>4. Labeling:</span> Finally, the cans are labeled with the paint type, color, and other relevant information. This makes it easy for customers to identify the paint they need and use it correctly.   </p>    <br /><p> Overall, the process of filling paint cans requires attention to detail and a clean, organized workspace to ensure that the paint is evenly distributed and the cans are properly sealed.</p>", 
+        "paragraph02":"<h2>Automation and Technology</h2><br /><p><span>Industry 4.0 Integration:</span> Incorporate automation and data analytics for improved efficiency.</p><br /><p><span>Remote Monitoring:</span> Implement systems for remote monitoring and control of the production process.<br /></p>", 
+        "paragraph03":"<h2>Challenges and Solutions</h2><br />  <p><span>Smart filling system:</span> The system was composed of a roller transport, with sensors that determined the size and material of each individual can, depending on the type of can, the system independently moved the stops of the product, sent the data for the quantity of filling and stopped at the correct capping station, furthermore, different types of cans could be inserted, given that the system was able to recognize their type. In addition to handling, I also managed the capping cycles and data exchange with the filler. The HMI (Human-Machine Interface) was implemented using WinCC from Siemens. Overall, the system was highly automated and efficient, with the ability to handle a variety of barrel types and sizes. The use of sensors and data exchange with the filler ensured accurate and consistent filling, while the HMI provided easy control and monitoring of the system.</p>",                
+        "urlMedia01":"<img src='/images/Project_03_img_01.jpg' />",
+        "urlMedia02":"<video autoPlay loop muted><source src='/videos/Corob.mp4' type='video/mp4'/></video>",
+        "urlMedia03":"<img src='/images/Project_03_img_03.jpg' />",
+        "conclusion":"<h2>Conclusion</h2><p>In conclusion, the system described above is a highly advanced and efficient solution for the automated filling and capping of cans. The use of sensors and data exchange with the filler ensures accurate and consistent filling, while the conveyor belt system and HMI provide easy control and monitoring of the process. The ability to handle different types of cans and sizes makes the system highly versatile and adaptable to a wide range of applications. Overall, this system represents a significant step forward in the automation of can filling and capping processes.</p>"
     },
     {
         "id": 4,   
         "urlProjMedia":"/images/Project_04.jpg",   
         "industry":"MANUFACTURING PROCESS",
-        "usedTech":{
-            "file": "/text/Proj04/UsedTech.txt",
-            "format": "text"
-        }, 
+        "usedTech":"<ul><li><span>PLC: </span>CPU Safe Allen Bradley</li><li><span>Language: </span>Ladder/STL</li><li><span>Network: </span>Ethernet</li><li><span>Safe Net: </span>Ethernet</li><li><span>SCADA: </span>Factory Talk</li><li><span>Electric connection: </span>Cable</li><li><span>Mechanical: </span>Standard Machine</li><li><span>Hydraulic: </span>Air</li></ul>", 
         "country":"Australia",
-        "overview":{
-            "file": "/text/Proj04/Overview.txt",
-            "format": "text"
-        }, 
-        "paragraph01":{
-            "file": "/text/Proj04/Paragraph01.txt",
-            "format": "text"
-        }, 
-        "paragraph02":{
-            "file": "/text/Proj04/Paragraph02.txt",
-            "format": "text"
-        }, 
-        "paragraph03":{
-            "file": "/text/Proj04/Paragraph03.txt",
-            "format": "text"
-        },                
-        "urlMedia01":{
-            "file": "/text/Proj04/urlMedia01.txt",
-            "format": "text"
-        },
-        "urlMedia02":{
-            "file": "/text/Proj04/urlMedia02.txt",
-            "format": "text"
-        },
-        "urlMedia03":{
-            "file": "/text/Proj04/urlMedia03.txt",
-            "format": "text"
-        },
-        "conclusion":{
-            "file": "/text/Proj04/Conclusion.txt",
-            "format": "text"
-        }
+        "overview":"Nestle Arndell Park is a Nestle facility located in the Arndell Park area. It serves as a key hub for the production, packaging, and distribution of Nestle's diverse portfolio of food and beverage products. The facility is likely to adhere to high standards of quality and safety in line with Nestle's global practices.", 
+        "paragraph01":"<h2>Production Process</h2><br /><p>The production process of an infeed and outfeed automatic warehouse system for pallets, utilizing LGV (Laser-Guided Vehicles) and roller conveyors, typically involves several key steps. Below is a general overview of the process:</p><br /><p><span>Receiving and Unloading:</span>Pallets carrying goods arrive at the facility on trucks. The trucks are directed to specific unloading bays where the pallets are unloaded. </p> <br /><p><span>Inspection and Data Capture:</span>Pallets are inspected for quality and accuracy. Data related to each pallet, such as product type, quantity, and destination, is captured and recorded in the system. </p> <br /><p><span>Conveyor System Integration:</span>Pallets are placed on the infeed conveyor system. The infeed conveyor system may include sensors for detecting pallets, ensuring proper spacing, and facilitating the smooth flow of pallets onto the conveyor. </p><br /><p><span>Automated Guided Vehicles (LGV) Handling:</span>LGVs, which are equipped with guidance systems such as lasers or magnets, navigate through the facility autonomously. LGVs pick up pallets from the infeed conveyor system and transport them to designated storage locations within the warehouse.</p><br /><p><span>Storage in Automated Racking System:</span>The warehouse is equipped with an automated racking system where LGVs deposit the pallets.The racking system is designed to optimize storage space and facilitate efficient retrieval.</p><br /><p><span>Inventory Management:</span>The warehouse management system (WMS) keeps track of the inventory, including the location of each pallet within the automated storage system.</p><br /><p><span>Order Processing:</span>When an order is received, the WMS identifies the location of the required pallets. The LGVs retrieve the pallets from their storage locations and transport them to the outfeed area.</p><br /><p><span>Outfeed Conveyor System:</span>The outfeed conveyor system receives pallets from the storage area and transports them toward the loading bays.</p><br /><p><span>Loading onto Trucks:</span>Pallets are loaded onto trucks at the designated loading bays.</p><br /><p><span>Data Logging and Reporting:</span>Throughout the process, data is logged and recorded for traceability and reporting purposes.Any discrepancies or issues in the process are flagged for corrective action.</p><br /><p><span>Maintenance and Monitoring:</span>Regular maintenance is conducted on the conveyor systems, LGVs, and other components to ensure smooth operation.Real-time monitoring systems are in place to detect and address any faults or malfunctions promptly.</p>", 
+        "paragraph02":"<h2>Automation and Technology</h2><br /><p><span>Industry 4.0 Integration:</span> Incorporate automation and data analytics for improved efficiency.</p><br /><p><span>Remote Monitoring:</span> Implement systems for remote monitoring and control of the production process.<br /></p>", 
+        "paragraph03":"<h2>Challenges and Solutions</h2><p><span>Automatic product entry system to the warehouse:</span> The entry and exit system of the automated warehouse was designed to handle products without pallets and with pallets. For products without a pallet, the system inserted a pallet under it before proceeding with wrapping. After wrapping, a shape check was carried out to verify that the product was suitable for storage. Additionally, a barcode control system was used to enter the product into the management system. </p><br /><p>If the check was successful, the pallet was transported from the warehouse loading bays, where an LGV (remotely guided vehicle) took it to its final allocation. For products with double pallets on top of each other, the system included a depalletizing system that separated the double pallets before proceeding with the shape and label control. After checking, the pallet was transported to the warehouse loading docks, where the LGV took it to its final allocation. If the checks were not successful, the pallet was transported to a reject bay and a message was shown on a display. </p><br /><p>The system was designed to be easily usable and customizable, thanks to the use of an HMI (human-machine interface) programmed in <span>Factory Talk.</span> This allowed operators to easily manage the system and adapt it to the specific needs of the warehouse.</p>",                
+        "urlMedia01":"<img src='/images/Project_04_img_02.jpg' />",
+        "urlMedia02":"<video autoPlay loop muted><source src='/videos/Nestle01.mp4' type='video/mp4' /></video>",
+        "urlMedia03":"<img src='/images/Project_04_img_03.jpeg' />",
+        "conclusion":"<h2>Conclusion</h2><p> In conclusion, the automatic warehouse entry and exit system has proven to be an excellent solution for managing products without pallets and with pallets. Thanks to the shape and barcode control system, the system is able to guarantee that the products are suitable for storage, minimizing the risk of errors or damage. Additionally, using an HMI programmed in Factory Talk made the system easy to use and customize, allowing operators to easily manage the system and adapt it to specific warehouse needs. All this has contributed to making the system an excellent option for managing automated warehouses.</p>"
     },
     {
         "id": 5,   
         "urlProjMedia":"/images/Project_05.jpg",   
         "industry":"MANUFACTURING PROCESS",
-        "usedTech":{
-            "file": "/text/Proj04/UsedTech.txt",
-            "format": "text"
-        }, 
-        "country":"Australia",
-        "overview":{
-            "file": "/text/Proj05/Overview.txt",
-            "format": "text"
-        }, 
-        "paragraph01":{
-            "file": "/text/Proj05/Paragraph01.txt",
-            "format": "text"
-        }, 
-        "paragraph02":{
-            "file": "/text/Proj05/Paragraph02.txt",
-            "format": "text"
-        }, 
-        "paragraph03":{
-            "file": "/text/Proj05/Paragraph03.txt",
-            "format": "text"
-        },                
-        "urlMedia01":{
-            "file": "/text/Proj05/urlMedia01.txt",
-            "format": "text"
-        },
-        "urlMedia02":{
-            "file": "/text/Proj05/urlMedia02.txt",
-            "format": "text"
-        },
-        "urlMedia03":{
-            "file": "/text/Proj05/urlMedia03.txt",
-            "format": "text"
-        },
-        "conclusion":{
-            "file": "/text/Proj05/Conclusion.txt",
-            "format": "text"
-        }
+        "usedTech":"<ul><li><span>PLC: </span>CPUSafe Siemens</li><li><span>Language: </span>Ladder</li><li><span>Network: </span>Profinet</li><li><span>Safe Net: </span>Profinet</li><li><span>SCADA: </span>Wonderware</li><li><span>Electric connection: </span>Cable</li><li><span>Mechanical: </span>Heavy</li><li><span>Hydraulic: </span>Oil & Air</li></ul>", 
+        "overview":"Berneck has a history dating back to its establishment in 1952.The company is headquartered in Curitibanos, Santa Catarina, Brazil. Berneck is known for its involvement in the production of wood-based products. This includes plywood and other engineered wood products. The company may also be involved in the production of MDF (Medium Density Fiberboard), an engineered wood product widely used in furniture and construction. As with many companies in the wood industry, sustainability and responsible forestry practices are crucial. Companies like Berneck often emphasize sustainable sourcing of raw materials and responsible environmental practices. Berneck likely has a significant presence in the Brazilian and possibly international markets, providing wood products for construction, furniture, and other industries. Successful companies in the wood industry often invest in modern technologies for manufacturing processes, quality control, and sustainability measures. Berneck might be incorporating advanced technologies in its production systems.", 
+        "paragraph01":"<h2>Production Process</h2><br /><p> <span>Wood Fiber Preparation:</span> Design a process for breaking down wood into fibers efficiently.<br /><span>Resin and Wax Mixing:</span> Establish a controlled environment for combining resin and wax with wood fibers.<br /><span>Forming Panels:</span> Develop a method for forming panels under high temperature and pressure.<br /><span>Curing and Finishing:</span> Implement a curing process and finishing touches to ensure product durability and quality.<br /><br /></p><h4>Energy Efficiency:</h4><br /><p><span>Optimized Heating System:</span> Consider energy-efficient heating systems to reduce operational costs.<br /><span>Waste Heat Recovery:</span> Implement systems to capture and reuse waste heat generated during production.<br /><br /></p><h4>Quality Control:</h4><br /><p><span>Automated Inspection:</span> Utilize sensors and automated systems for real-time quality control.<br /><span>Testing Protocols</span>: Develop testing protocols to ensure compliance with industry standards.<br /><br /></p><h4>Environmental Impact:</h4><br /><p><span>Waste Management:</span> Implement a comprehensive waste management system for by-products.<br /><span>Sustainability Measures:</span> Consider sustainable practices in wood sourcing and production processes.<br /></p>", 
+        "paragraph02":"<h2>Automation and Technology</h2><br /><p><span>Industry 4.0 Integration:</span> Incorporate automation and data analytics for improved efficiency.</p><br /><p><span>Remote Monitoring:</span> Implement systems for remote monitoring and control of the production process.<br /></p>", 
+        "paragraph03":"<h2>Challenges and Solutions</h2><br /><h4>Regulatory Compliance:</h4><br /><p><span>Environmental Regulations:</span> Stay compliant with environmental regulations to minimize negative impacts.<br /><span>Quality Standards:</span> Ensure adherence to industry quality standards and certifications.<br /><br /></p><h4>Cost Management:</h4><br /><p><span>Operational Costs:</span> Monitor and optimize operational costs through efficient resource utilization.<br /></p>",                
+        "urlMedia01":"<img src='/images/Project_01_img_01.jpg' />",
+        "urlMedia02":"<img src='/images/Project_01_img_03.jpg' />",
+        "urlMedia03":"<img src='/images/Project_01_img_02.jpg' />",
+        "conclusion":"<h2>Conclusion</h2><p>Summarize the key aspects of the MDF production system, highlighting its efficiency, sustainability and compliance with quality standards. The dosing control system for gluing components is controlled with an automatic PID system, furthermore the wood dosing process for production was carried out with a proportional control system based on the weight and speed of the dosing bunker. Provide recommendations for continuous improvements, such as exploring new technologies, expanding sustainability initiatives, and staying current on industry progress.</p><br /><p>Thanks:With the collaboration of everyone, including electricians, mechanical fitters and external suppliers, the objective was achieved within the proposed times and with the optimal quality as per the contract.</p>"
     }
 ]

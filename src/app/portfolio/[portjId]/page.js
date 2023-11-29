@@ -6,34 +6,13 @@ import Data from '../../../data/Portfolio/Proj.json'
 
 import ParseTxtToHtml from '../components/ParseTxtToHtml'
 
-
-// import { readFileSync } from 'fs';
-// var fs = require('fs');
-
-// import fs from 'fs';
-// import path from 'path';
-
 export default async function ProjectPage({params}){
     
-    // const filePath = '/text/Proj01/Overview.txt';
-    // const buffer = fs.readFileSync(path.join(process.cwd(), 'public', filePath), 'utf-8');
-    // const fileContent = buffer.toString();
-
-// const Overview = fs.readFileSync('./public/' + Data[params.portjId].overview.file, 'utf-8');
-// const Paragraph01 = fs.readFileSync('./public/' + Data[params.portjId].paragraph01.file, 'utf-8');
-// const Paragraph02 = fs.readFileSync('./public/' + Data[params.portjId].paragraph02.file, 'utf-8');
-// const Paragraph03 = fs.readFileSync('./public/' + Data[params.portjId].paragraph03.file, 'utf-8');
-// const UseTech = fs.readFileSync('./public/' + Data[params.portjId].usedTech.file, 'utf-8');
-// const urlMedia01 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia01.file, 'utf-8');
-// const urlMedia02 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia02.file, 'utf-8');
-// const urlMedia03 = fs.readFileSync('./public/' + Data[params.portjId].urlMedia03.file, 'utf-8');
-// const Conclusion = fs.readFileSync('./public/' + Data[params.portjId].conclusion.file, 'utf-8');
-
 const Overview = Data[params.portjId].overview;
 const Paragraph01 = Data[params.portjId].paragraph01;
 const Paragraph02 = Data[params.portjId].paragraph02;
 const Paragraph03 = Data[params.portjId].paragraph03;
-const UseTech = '<p>Paragraph01</p>';
+const UseTech = Data[params.portjId].usedTech;
 const urlMedia01 = Data[params.portjId].urlMedia01;
 const urlMedia02 = Data[params.portjId].urlMedia02;
 const urlMedia03 = Data[params.portjId].urlMedia03;
