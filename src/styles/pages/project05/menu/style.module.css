@@ -9,6 +9,7 @@
 
 .menu_main_button
 {
+    
     /* Shape */
     height: 2.8rem;
     aspect-ratio: 1;
@@ -39,6 +40,7 @@
 
 .menu_secondary_button
 {
+    
     /* his position */
     position: absolute;
 
@@ -126,6 +128,8 @@
 
 .menu_semi_circle_inner
 {
+
+    
     position: absolute;
 
     width: 15.6rem;

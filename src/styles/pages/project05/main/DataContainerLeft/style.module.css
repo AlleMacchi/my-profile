@@ -1,0 +1,55 @@
+.DataContainer{
+    backdrop-filter: blur(10px);
+    background: rgba(160,160,160,0.1);    
+    z-index: 99999999; /* serve per far sparire il tooltip sotto di lui nell'immagine 3D */
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2%;
+
+  }
+  
+  .Widget_row{
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      width: 90%;   
+      height: calc(100vh/4);     
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 7px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      padding-bottom: 3%; 
+  }
+
+ 
+  .DataContainer h2{
+    margin-top: 5%;
+    font-size: clamp(15px, 2.4vw, 30px);
+  }
+
+#DataContainerLeft{
+    position: fixed;
+    top: var(--height-header);
+    bottom: 0;
+    height: calc(100vh - var(--height-header));
+    left:0;
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 20px 20px 0;
+}
+@media (max-width:1500px){
+    #DataContainerLeft{
+        width: 20%;
+    }
+}
+@media (max-width:1200px){
+    #DataContainerLeft{
+        width: 20%;
+    }
+}

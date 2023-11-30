@@ -7,7 +7,8 @@ import Layout3D from "./Layout3D";
 import annotations from "../../../data/Position3D/annotations.json";
 import ButtonGoToView from '../components/ButtonGoToView';
 import ButtonHomeView from "../components/ButtonHomeView";
-import Menu from '../components/menu/menu'
+import DataContainerLeft from './DataContainerLeft/DataContainerLeft';
+import DataContainerRight from './DataContainerRight/DataContainerRight';
 
 import style from '../../../styles/pages/project05/main/style.module.css'
 
@@ -24,6 +25,7 @@ export default function Main(){
         <>
         <div className={style.container}> 
             <Suspense fallback={null}>
+                <DataContainerLeft />
                 <Canvas
                 className="canvas"
                 camera={{
@@ -43,13 +45,11 @@ export default function Main(){
                 <ButtonGoToView gotoView={GoToView} />
                 <CameraControls position={position} target={target} />
                 </Canvas>
+                <DataContainerRight />
                 <ButtonHomeView gotoView={GoToView} />
-                <Menu />
+                {/* <Menu /> */}
             </Suspense>
         </div>      
-        <div className={style.portrait}> 
-            <h2> Turn the Device for active the SCADA 3D</h2>
-        </div>  
         </>    
     )
 }
