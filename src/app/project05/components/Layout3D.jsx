@@ -18,11 +18,32 @@ export function Layout3D(props) {
   const helix6 = useRef()
   const helix7 = useRef()
   const helix8 = useRef()
+  const inj01 = useRef()
+  const inj02 = useRef()
+  const inj03 = useRef()
+  const inj04 = useRef()
+  const inj05 = useRef()
+  const inj06 = useRef()
+  const inj07 = useRef()
+  const inj08 = useRef()
+  const inj09 = useRef()
+  const inj10 = useRef()
   let isPlay = true;
+  let isInjOnTop01 = false;
+  let isInjOnTop02 = false;
+  let isInjOnTop03 = false;
+  let isInjOnTop04 = false;
+  let isInjOnTop05 = false;
+  let isInjOnTop06 = false;
+  let isInjOnTop07 = false;
+  let isInjOnTop08 = false;
+  let isInjOnTop09 = false;
+  let isInjOnTop10 = false;
+  
  
   useFrame((_, delta) => {
     if (isPlay) {
-      helix1.current.rotation.z += 2 * delta 
+      // helix1.current.rotation.z += 2 * delta 
       helix2.current.rotation.z += 2 * delta
       helix3.current.rotation.z += 2 * delta
       helix4.current.rotation.z += 2 * delta
@@ -30,6 +51,118 @@ export function Layout3D(props) {
       helix6.current.rotation.z += 2 * delta
       helix7.current.rotation.z += 2 * delta
       helix8.current.rotation.z += 2 * delta
+
+      // Injector 01
+      if (inj01.current.position.y + delta <= 6.5 && !isInjOnTop01) {
+        inj01.current.position.y += delta;
+      }else {
+        isInjOnTop01 = true;
+        inj01.current.position.y -= delta;
+        if (inj01.current.position.y < 5.8) {
+          inj01.current.position.y = 5.8;
+          isInjOnTop01 = false;
+        }
+      }
+      // Injector 02
+      if (inj02.current.position.y + delta <= 6.5 && !isInjOnTop02) {
+        inj02.current.position.y += delta;
+      }else {
+        isInjOnTop02 = true;
+        inj02.current.position.y -= delta;
+        if (inj02.current.position.y < 5.8) {
+          inj02.current.position.y = 5.8;
+          isInjOnTop02 = false;
+        }
+      }
+      // Injector 03
+      if (inj03.current.position.y + delta <= 6.5 && !isInjOnTop03) {
+        inj03.current.position.y += delta;
+      }else {
+        isInjOnTop03 = true;
+        inj03.current.position.y -= delta;
+        if (inj03.current.position.y < 5.8) {
+          inj03.current.position.y = 5.8;
+          isInjOnTop03 = false;
+        }
+      }
+      // Injector 04
+      if (inj04.current.position.y + delta <= 6.5 && !isInjOnTop04) {
+        inj04.current.position.y += delta;
+      }else {
+        isInjOnTop04 = true;
+        inj04.current.position.y -= delta;
+        if (inj04.current.position.y < 5.8) {
+          inj04.current.position.y = 5.8;
+          isInjOnTop04 = false;
+        }
+      }
+      // Injector 05
+      if (inj05.current.position.y + delta <= 6.5 && !isInjOnTop05) {
+        inj05.current.position.y += delta;
+      }else {
+        isInjOnTop05 = true;
+        inj05.current.position.y -= delta;
+        if (inj05.current.position.y < 5.8) {
+          inj05.current.position.y = 5.8;
+          isInjOnTop05 = false;
+        }
+      }
+      // Injector 06
+      // if (inj06.current.position.y + delta <= 6.5 && !isInjOnTop06) {
+      //   inj06.current.position.y += delta;
+      // }else {
+      //   isInjOnTop06 = true;
+      //   inj06.current.position.y -= delta;
+      //   if (inj06.current.position.y < 5.8) {
+      //     inj06.current.position.y = 5.8;
+      //     isInjOnTop06 = false;
+      //   }
+      // }
+      // Injector 07
+      if (inj07.current.position.y + delta <= 6.5 && !isInjOnTop07) {
+        inj07.current.position.y += delta;
+      }else {
+        isInjOnTop07 = true;
+        inj07.current.position.y -= delta;
+        if (inj07.current.position.y < 5.8) {
+          inj07.current.position.y = 5.8;
+          isInjOnTop07 = false;
+        }
+      }
+      // Injector 08
+      if (inj08.current.position.y + delta <= 6.5 && !isInjOnTop08) {
+        inj08.current.position.y += delta;
+      }else {
+        isInjOnTop08 = true;
+        inj08.current.position.y -= delta;
+        if (inj08.current.position.y < 5.8) {
+          inj08.current.position.y = 5.8;
+          isInjOnTop08 = false;
+        }
+      }
+      // Injector 09
+      if (inj09.current.position.y + delta <= 6.5 && !isInjOnTop09) {
+        inj09.current.position.y += delta;
+      }else {
+        isInjOnTop09 = true;
+        inj09.current.position.y -= delta;
+        if (inj09.current.position.y < 5.8) {
+          inj09.current.position.y = 5.8;
+          isInjOnTop09 = false;
+        }
+      }
+      // Injector 10
+      if (inj10.current.position.y + delta <= 6.5 && !isInjOnTop10) {
+        inj10.current.position.y += delta;
+      }else {
+        isInjOnTop10 = true;
+        inj10.current.position.y -= delta;
+        if (inj10.current.position.y < 5.8) {
+          inj10.current.position.y = 5.8;
+          isInjOnTop10 = false;
+        }
+      }
+      
     } 
   })
 
@@ -40,7 +173,7 @@ export function Layout3D(props) {
       <mesh ref={helix1}  geometry={nodes.PumpHpElica.geometry} material={materials.MetalGloss} position={[17.687, 22.018, 12.176]} rotation={[0, -0.003, 0.022]} scale={2.345} />
       <mesh geometry={nodes.PumpHpRotore.geometry} material={materials.MetalGloss} position={[17.686, 22.001, 18.195]} rotation={[Math.PI / 2, 0, 0.003]} scale={[0.27, 0.944, 0.27]} />
       <mesh geometry={nodes.PumpHpTarga.geometry} material={materials.MetalGloss} position={[11.855, 20, 13.992]} rotation={[0, -0.003, 0]} scale={2.345} />
-      <mesh geometry={nodes.PumpHPBody.geometry} material={materials.HpPump} position={[11.855, 20, 13.992]} rotation={[0, -0.003, 0]} scale={2.345} />
+      <mesh geometry={nodes.PumpHPBody.geometry} material={materials.HpPump} material-color={'red'} position={[11.855, 20, 13.992]} rotation={[0, -0.003, 0]} scale={2.345} />
       <mesh geometry={nodes.HpPumpFilter.geometry} material={materials.Pipe} position={[26.98, 20.15, 12.019]} rotation={[0, 0.006, 0]} scale={[0.445, 0.616, 0.445]} />
       <mesh geometry={nodes.HpPumpCarter.geometry} material={materials.MetalMate} position={[13.888, 19.985, 14.001]} rotation={[0, -0.003, 0]} scale={1.908} />
       <mesh ref={helix2} geometry={nodes.PumpHpElicaCL.geometry} material={materials.MetalGloss} position={[-36.732, 22.018, 12.176]} rotation={[0, -0.003, 0.022]} scale={2.345} />
@@ -188,7 +321,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.Plane.geometry} material={materials['Transparent.Light']} position={[6.384, 19.979, 1.517]} scale={[52.598, 17.806, 28.301]} />
       <mesh geometry={nodes.Plane001.geometry} material={materials.Transparent} position={[-10.111, -4.586, 12.258]} rotation={[0, 0, -Math.PI]} scale={[-74.004, -17.806, -39.042]} />
       <mesh geometry={nodes.PipeT.geometry} material={materials.Pipe} position={[3.02, 25.41, 20.002]} rotation={[-1.572, 0, -3.13]} scale={[0.249, 0.46, 0.249]} />
-      <mesh geometry={nodes.ValvePosition.geometry} material={materials.ValveDistyributionInjectors} position={[3.015, 25.151, 16.76]} rotation={[-1.572, 0, 0.004]} scale={[0.201, 0.363, 0.201]} />
+      <mesh geometry={nodes.ValvePosition.geometry} material-color={'red'} material={materials.ValveDistyributionInjectors} position={[3.015, 25.151, 16.76]} rotation={[-1.572, 0, 0.004]} scale={[0.201, 0.363, 0.201]} />
       <mesh geometry={nodes.ValveBody.geometry} material={materials.MetalMate} position={[3.025, 25.416, 17.415]} rotation={[3.14, -0.004, 0]} scale={[1.259, 0.612, 0.612]} />
       <mesh geometry={nodes.ValveBolts.geometry} material={materials.MetalGloss} position={[4.171, 25.8, 17.78]} rotation={[3.14, -0.004, -Math.PI / 2]} scale={0.052} />
       <mesh geometry={nodes.ValveRotore.geometry} material={materials.Pipe} position={[3.021, 25.358, 18.751]} rotation={[1.566, 0, -0.004]} scale={[0.249, 0.843, 0.249]} />
@@ -204,7 +337,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody001CL.geometry} material={materials['Iniettore.011']} position={[-3.835, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts001CL.geometry} material={materials.MetalGloss} position={[-4.318, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents001CL.geometry} material={materials.Pipe} position={[-4.141, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo001CL.geometry} material={materials.Pipe} position={[-4.136, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj01} geometry={nodes.IniettoreStelo001CL.geometry} material={materials.Pipe} position={[-4.136, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody002.geometry} material={materials['Iniettore.002']} position={[49.075, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts002.geometry} material={materials.MetalGloss} position={[48.592, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents002.geometry} material={materials.Pipe} position={[48.769, 5.022, -0.702]} />
@@ -212,7 +345,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody002CL.geometry} material={materials['Iniettore.012']} position={[-5.181, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts002CL.geometry} material={materials.MetalGloss} position={[-5.665, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents002CL.geometry} material={materials.Pipe} position={[-5.488, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo002CL.geometry} material={materials.Pipe} position={[-5.482, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj02} geometry={nodes.IniettoreStelo002CL.geometry} material={materials.Pipe} position={[-5.482, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody003.geometry} material={materials['Iniettore.003']} position={[47.728, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts003.geometry} material={materials.MetalGloss} position={[47.245, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents003.geometry} material={materials.Pipe} position={[47.422, 5.022, -0.702]} />
@@ -220,7 +353,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody003CL.geometry} material={materials['Iniettore.013']} position={[-6.528, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts003CL.geometry} material={materials.MetalGloss} position={[-7.011, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents003CL.geometry} material={materials.Pipe} position={[-6.834, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo003CL.geometry} material={materials.Pipe} position={[-6.829, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj03} geometry={nodes.IniettoreStelo003CL.geometry} material={materials.Pipe} position={[-6.829, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody004.geometry} material={materials['Iniettore.004']} position={[44.262, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts004.geometry} material={materials.MetalGloss} position={[43.779, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents004.geometry} material={materials.Pipe} position={[43.956, 5.022, -0.702]} />
@@ -228,7 +361,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody004CL.geometry} material={materials['Iniettore.014']} position={[-9.994, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts004CL.geometry} material={materials.MetalGloss} position={[-10.477, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents004CL.geometry} material={materials.Pipe} position={[-10.3, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo004CL.geometry} material={materials.Pipe} position={[-10.295, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj04} geometry={nodes.IniettoreStelo004CL.geometry} material={materials.Pipe} position={[-10.295, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody005.geometry} material={materials['Iniettore.005']} position={[42.944, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts005.geometry} material={materials.MetalGloss} position={[42.461, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents005.geometry} material={materials.Pipe} position={[42.638, 5.022, -0.702]} />
@@ -236,15 +369,15 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody005CL.geometry} material={materials['Iniettore.015']} position={[-11.312, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts005CL.geometry} material={materials.MetalGloss} position={[-11.796, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents005CL.geometry} material={materials.Pipe} position={[-11.619, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo005CL.geometry} material={materials.Pipe} position={[-11.613, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj05} geometry={nodes.IniettoreStelo005CL.geometry} material={materials.Pipe} position={[-11.613, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody006.geometry} material={materials['Iniettore.006']} position={[41.583, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts006.geometry} material={materials.MetalGloss} position={[41.1, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents006.geometry} material={materials.Pipe} position={[41.277, 5.022, -0.702]} />
       <mesh geometry={nodes.IniettoreStelo006.geometry} material={materials.Pipe} position={[41.282, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
-      <mesh geometry={nodes.IniettoreBody006CL.geometry} material={materials['Iniettore.016']} position={[-12.673, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
+      <mesh geometry={nodes.IniettoreBody006CL.geometry} material-color={'red'} material={materials['Iniettore.016']} position={[-12.673, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts006CL.geometry} material={materials.MetalGloss} position={[-13.157, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents006CL.geometry} material={materials.Pipe} position={[-12.98, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo006CL.geometry} material={materials.Pipe} position={[-12.974, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj06} geometry={nodes.IniettoreStelo006CL.geometry} material={materials.Pipe} position={[-12.974, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody007.geometry} material={materials['Iniettore.007']} position={[40.222, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts007.geometry} material={materials.MetalGloss} position={[39.739, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents007.geometry} material={materials.Pipe} position={[39.916, 5.022, -0.702]} />
@@ -252,7 +385,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody007CL.geometry} material={materials['Iniettore.017']} position={[-14.034, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts007CL.geometry} material={materials.MetalGloss} position={[-14.517, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents007CL.geometry} material={materials.Pipe} position={[-14.34, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo007CL.geometry} material={materials.Pipe} position={[-14.335, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj07} geometry={nodes.IniettoreStelo007CL.geometry} material={materials.Pipe} position={[-14.335, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody008.geometry} material={materials['Iniettore.008']} position={[38.883, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts008.geometry} material={materials.MetalGloss} position={[38.399, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents008.geometry} material={materials.Pipe} position={[38.576, 5.022, -0.702]} />
@@ -260,7 +393,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody008CL.geometry} material={materials['Iniettore.018']} position={[-15.374, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts008CL.geometry} material={materials.MetalGloss} position={[-15.857, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents008CL.geometry} material={materials.Pipe} position={[-15.68, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo008CL.geometry} material={materials.Pipe} position={[-15.675, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj08} geometry={nodes.IniettoreStelo008CL.geometry} material={materials.Pipe} position={[-15.675, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody009.geometry} material={materials['Iniettore.009']} position={[37.543, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts009.geometry} material={materials.MetalGloss} position={[37.06, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents009.geometry} material={materials.Pipe} position={[37.237, 5.022, -0.702]} />
@@ -268,7 +401,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody009CL.geometry} material={materials['Iniettore.019']} position={[-16.713, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts009CL.geometry} material={materials.MetalGloss} position={[-17.197, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents009CL.geometry} material={materials.Pipe} position={[-17.02, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo009CL.geometry} material={materials.Pipe} position={[-17.014, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj09} geometry={nodes.IniettoreStelo009CL.geometry} material={materials.Pipe} position={[-17.014, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.IniettoreBody010.geometry} material={materials['Iniettore.010']} position={[36.182, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts010.geometry} material={materials.MetalGloss} position={[35.699, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents010.geometry} material={materials.Pipe} position={[35.876, 5.022, -0.702]} />
@@ -276,7 +409,7 @@ export function Layout3D(props) {
       <mesh geometry={nodes.IniettoreBody010CL.geometry} material={materials['Iniettore.020']} position={[-18.074, 5.022, -0.978]} rotation={[-Math.PI, 1.567, -Math.PI]} />
       <mesh geometry={nodes.IniettoreBolts010CL.geometry} material={materials.MetalGloss} position={[-18.558, 6.296, -1.297]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={0.009} />
       <mesh geometry={nodes.IniettoreInletComponents010CL.geometry} material={materials.Pipe} position={[-18.38, 5.022, -0.702]} />
-      <mesh geometry={nodes.IniettoreStelo010CL.geometry} material={materials.Pipe} position={[-18.375, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
+      <mesh ref={inj10} geometry={nodes.IniettoreStelo010CL.geometry} material={materials.Pipe} position={[-18.375, 5.852, -0.981]} rotation={[-Math.PI, 1.567, -Math.PI]} scale={[0.471, 0.255, 0.471]} />
       <mesh geometry={nodes.PortataBolts.geometry} material={materials.MetalGloss} position={[30.08, 15.626, 12.051]} rotation={[-3.134, 0, 0]} scale={0.034} />
       <mesh geometry={nodes.Misuratore.geometry} material={materials.MisuratorePortata} position={[29.14, 16.365, 12.025]} rotation={[-Math.PI / 2, Math.PI / 2, 0]} scale={0.288} />
       <mesh geometry={nodes.PortataBody.geometry} material={materials.Pipe} position={[30.38, 14.071, 12.024]} rotation={[1.699, 1.564, -1.699]} scale={[0.266, 0.79, 0.266]} />
