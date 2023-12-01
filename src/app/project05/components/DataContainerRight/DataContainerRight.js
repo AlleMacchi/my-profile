@@ -172,12 +172,14 @@ const [dataSecond, setDataSecond] = useState([
             <div className={style.Widget_row}>
                 <LineChart 
                     title='Glue Pressure'
+                    height="Calc(100vh/5)"
                     data={data}
                 />
             </div>
             <div className={style.Widget_row}>
                 <LineChart 
                     title='Harder Pressure'
+                    height="Calc(100vh/5)"
                     data={dataSecond}
                 />
             </div>

@@ -13,7 +13,7 @@ import style from '../../../../styles/pages/project05/chart/style.module.css';
 
 function MyLineChart(props){
   return (
-    <div style={{width:"100%", height:"Calc(100vh/5)" }}>
+    <div style={{width:"100%", height:props.height }}>
     <ResponsiveContainer width="100%" height="100%">
       <AreaChart 
         data={props.data}
@@ -62,8 +62,8 @@ function MyLineChart(props){
           dy={10}
         />        
         
-        <Area type="monotone" dataKey="pv" stroke="#00FFFF" fillOpacity={1} fill="url(#colorPv)" />
-        <Area type="monotone" dataKey="sp" stroke="#FFF" fillOpacity={1} fill="url(#colorsp)" />
+        <Area type="linear" dataKey="pv" stroke="#00FFFF" fillOpacity={1} fill="url(#colorPv)" />
+        <Area type="linear" dataKey="sp" stroke="#FFF" fillOpacity={1} fill="url(#colorsp)" />
       </AreaChart>
   </ResponsiveContainer>
   </div>
