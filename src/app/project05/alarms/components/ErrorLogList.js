@@ -1,6 +1,6 @@
 // components/ErrorLogList.js
 import React from 'react';
-import style from '../../../../styles/pages/project05/log/ErrorLogList/style.module.css';
+import style from '../../../../styles/pages/project05/alarms/ErrorLogList/style.module.css';
 
 const ErrorLogList = ({ logs }) => {
   return (
