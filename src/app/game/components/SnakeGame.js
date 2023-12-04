@@ -23,11 +23,11 @@ const SnakeGame = () => {
   const [moved, setMoved] = useState(false);
 
   const resetGame = () => {
-    setSnake(initialSnake);
-    setDirection('RIGHT');
-    setFood(generateFood());
-    setGameOver(false);
-    setScore(0);
+      setSnake(initialSnake);
+      setDirection('RIGHT');
+      setFood(generateFood());
+      setGameOver(false);
+      setScore(0);
   };
 
   useEffect(() => {
