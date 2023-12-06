@@ -23,11 +23,11 @@ const SnakeGame = () => {
   const [moved, setMoved] = useState(false);
 
   const resetGame = () => {
-      setSnake(initialSnake);
-      setDirection('RIGHT');
-      setFood(generateFood());
-      setGameOver(false);
-      setScore(0);
+    setSnake(initialSnake);
+    setDirection('RIGHT');
+    setFood(generateFood());
+    setGameOver(false);
+    setScore(0);
   };
 
   useEffect(() => {
@@ -49,6 +49,9 @@ const SnakeGame = () => {
           break;
       }
     };
+
+
+
 
     const moveSnake = () => {
       if (gameOver) return;
@@ -115,22 +118,26 @@ const SnakeGame = () => {
     };
   }, [snake, direction, food, gameOver]);
 
+  const className = gameOver ? style.fieldRed : style.field ;
+
   return (
-    <div>
+    
+
+    <div className={style.wrapper}>
       <h1>Snake Game</h1>
       <p>Score: {score}</p>
-      <div className={style.field}>
+      <div className={className}>
         {Array.from({ length: numRows }, (_, rowIndex) => (
           <div key={rowIndex} style={{ display: 'flex' }}>
             {Array.from({ length: numCols }, (_, colIndex) => (
-              <div
+              <div className={style.square}
                 key={colIndex}
-                style={{
-                  width: '20px',
-                  height: '20px',
-                  // border: '1px solid #ccc',
-                  position: 'relative',
-                }}
+                // style={{
+                //   width: '20px',
+                //   height: '20px',
+                //   border: '1px solid #ccc',
+                //   position: 'relative',
+                // }}
               >
                 {snake[0].row === rowIndex && snake[0].col === colIndex && (
                   <img
@@ -167,10 +174,12 @@ const SnakeGame = () => {
           </div>
         ))}
       </div>
-      {gameOver && <p>Game Over!</p>}
-      <p>
-        <button onClick={resetGame}>Restart Game</button>
-      </p>
+      <div className={style.gameOver}>
+        {gameOver && <p>Game Over!</p>}
+      </div>      
+      <div>
+        <button className={style.button} onClick={resetGame}>Restart Game</button>
+      </div>
     </div>
 
 

@@ -1,5 +1,77 @@
-.field{
+.field,
+.fieldRed{
     background-image: url(/images/fieldDesert.jpg);
     background-size: cover;
     width: 400px;
+    border: solid 5px var(--blue);
 }
+.fieldRed{
+    border: solid 5px red; 
+}
+.wrapper{
+    text-align: center;
+    font-family: var(--subtitle-font);
+}
+
+.wrapper p{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    color: var(--white);
+    font-family: var(--subtitle-font);
+    font-size: clamp(6.5px, 1.04vw, 13px);
+    line-height: clamp(12px, 1.92vw, 24px);
+    letter-spacing: 1px;
+    padding-top:clamp(3.5px, 0.56vw, 7px);
+    padding-bottom:clamp(3.5px, 0.56vw, 7px);
+    padding-left: clamp(14px, 2.24vw, 28px);
+    padding-right: clamp(14px, 2.24vw, 28px);
+    margin-bottom: clamp(15px, 2.4vw, 30px);
+    border-color: var(--white);
+    border-radius: 0px;
+    border: 1px solid;
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid #ccc; */
+    position: relative;
+  }
+
+@media screen and (max-width: 450px) {
+    .square {
+        width: 15px;
+        height: 15px;
+    }
+
+    .field,
+    .fieldRed{
+        width: 300px;
+    }
+
+    .button {
+        font-size: 24px;
+        padding: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .button {
+        font-size: 24px;
+        padding: 20px;
+    }
+  }
