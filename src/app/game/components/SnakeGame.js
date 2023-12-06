@@ -30,7 +30,25 @@ const SnakeGame = () => {
     setScore(0);
   };
 
+        // Virtual Buttons
+        const buttonUp = () => {
+          if (direction !== 'DOWN' && !moved) setDirection('UP'), setMoved(true);
+    }
+
+    const buttonDown = () => {
+      if (direction !== 'UP' && !moved) setDirection('DOWN'), setMoved(true);
+    }
+    
+    const buttonLeft = () => {
+      if (direction !== 'RIGHT' && !moved) setDirection('LEFT'), setMoved(true);
+    }
+          
+    const buttonRight = () => {
+          if (direction !== 'LEFT' && !moved) setDirection('RIGHT'), setMoved(true);
+    }
+
   useEffect(() => {
+    // Real Buttons
     const handleKeyPress = (e) => {
       switch (e.key) {
         case 'ArrowUp':
@@ -48,6 +66,10 @@ const SnakeGame = () => {
         default:
           break;
       }
+
+
+
+
     };
 
 
@@ -176,6 +198,13 @@ const SnakeGame = () => {
       </div>
       <div className={style.gameOver}>
         {gameOver && <p>Game Over!</p>}
+        <div className={style.button_container}>
+          <button className={`${style.arrow_button} ${style.arrow_up}`} onClick={buttonUp}>&#8593;</button>
+          <button className={`${style.arrow_button} ${style.arrow_down}`} onClick={buttonDown}>&#8595;</button>
+          <button className={`${style.arrow_button} ${style.arrow_left}`} onClick={buttonLeft}>&#8592;</button> 
+          <button className={`${style.arrow_button} ${style.arrow_right}`} onClick={buttonRight}>&#8594;</button>
+        </div>
+        {/* <div class={style.triangle}></div> */}
       </div>      
       <div>
         <button className={style.button} onClick={resetGame}>Restart Game</button>

@@ -11,7 +11,7 @@
     height:  calc(100vh - var(--height-header));
     width: 100%;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .title{
